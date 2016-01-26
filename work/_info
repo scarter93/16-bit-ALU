@@ -1,0 +1,51 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/scarte9/ECSE487-ALU
+Ealu_16
+Z1 w1453835495
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+Z6 FC:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+l0
+L9
+V`gUF8HmhYh]RT2W8P6Z693
+!s100 OQlCKTX<;Ug?mSmbLhEi02
+Z7 OV;C;10.3d;59
+32
+Z8 !s110 1453835499
+!i10b 1
+Z9 !s108 1453835499.802000
+Z10 !s90 -reportprogress|300|-work|work|C:/Users/scarte9/ECSE487-ALU/alu_16.vhd|
+Z11 !s107 C:/Users/scarte9/ECSE487-ALU/alu_16.vhd|
+!i113 1
+Z12 o-work work
+Z13 tExplicit 1
+Aimplementation
+R2
+R3
+R4
+Z14 DEx4 work 6 alu_16 0 22 `gUF8HmhYh]RT2W8P6Z693
+l31
+L26
+Z15 VU9X_NNeo04:<9k2OFZHNZ3
+Z16 !s100 L`RFUz`U6m>A6O]LU30[83
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
