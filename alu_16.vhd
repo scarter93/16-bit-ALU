@@ -5,6 +5,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
+--use ieee.numeric_bit.all;
 
 entity alu_16 is
 	Generic(
@@ -25,6 +26,8 @@ end entity;
 
 architecture implementation of alu_16 is
 
+Signal input1_temp : std_logic_vector(DATA_WIDTH-1 downto 0);
+--Signal output_t : unsigned(DATA_WIDTH-1 downto 0);
 Signal input1, input2, output : signed(DATA_WIDTH-1 downto 0);
 Signal in_code, out_code : unsigned(3 downto 0);
 
@@ -69,6 +72,20 @@ Process(CLOCK, RESET)
 					out_code <= in_code;
 				when "1000" =>
 					output <= input1 XNOR input2;
+					out_code <= in_code;
+				when "1001" =>
+					output <= shift_left(input1, to_integer(unsigned(input2)));
+					out_code <= in_code;
+				when "1010" =>
+					output <= shift_right(input1, to_integer(unsigned(input2)));
+					out_code <= in_code;
+				when "1011" =>
+					input1_temp <= std_logic_vector(input1);
+					output <= signed(shift_left(unsigned(input1_temp), to_integer(unsigned(input2))));
+					out_code <= in_code;
+				when "1100" =>
+					input1_temp <= std_logic_vector(input1);
+					output <= signed(shift_right(unsigned(input1_temp), to_integer(unsigned(input2))));
 					out_code <= in_code;
 				when others =>
 					output <= "0000000000000000";
