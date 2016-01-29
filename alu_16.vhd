@@ -26,6 +26,20 @@ end entity;
 
 architecture implementation of alu_16 is
 
+CONSTANT ADD : unsigned(3 downto 0) := "0000";
+CONSTANT SUB : unsigned(3 downto 0) := "0001";
+CONSTANT NOT_IN : unsigned(3 downto 0) := "0010";
+CONSTANT AND_IN : unsigned(3 downto 0) := "0011";
+CONSTANT NAND_IN : unsigned(3 downto 0) := "0100";
+CONSTANT OR_IN : unsigned(3 downto 0) := "0101";
+CONSTANT NOR_IN : unsigned(3 downto 0) := "0110";
+CONSTANT XOR_IN : unsigned(3 downto 0) := "0111";
+CONSTANT XNOR_IN : unsigned(3 downto 0) := "1000";
+CONSTANT ASL : unsigned(3 downto 0) := "1001";
+CONSTANT ASR : unsigned(3 downto 0) := "1010";
+CONSTANT LSL : unsigned(3 downto 0) := "1011";
+CONSTANT LSR : unsigned(3 downto 0) := "1100";
+
 Signal input1_temp : std_logic_vector(DATA_WIDTH-1 downto 0);
 --Signal output_t : unsigned(DATA_WIDTH-1 downto 0);
 Signal input1, input2, output : signed(DATA_WIDTH-1 downto 0);
@@ -46,44 +60,44 @@ Process(CLOCK, RESET)
 			out_code <= "0000";
 		elsif rising_edge(CLOCK) then
 			case OPCODE is
-				when "0000" =>
+				when ADD =>
 					output <= input1 + input2;
 					out_code <= in_code;
-				when "0001" =>
+				when SUB =>
 					output <= input1 - input2;
 					out_code <= in_code;
-				when "0010" =>
+				when NOT_IN =>
 					output <= NOT input1;
 					out_code <= in_code;
-				when "0011" =>
+				when AND_IN =>
 					output <= input1 AND input2;
 					out_code <= in_code;
-				when "0100" =>
+				when NAND_IN =>
 					output <= input1 NAND input2;
 					out_code <= in_code;
-				when "0101" =>
+				when OR_IN =>
 					output <= input1 OR input2;
 					out_code <= in_code;
-				when "0110" =>
+				when NOR_IN =>
 					output <= input1 NOR input2;
 					out_code <= in_code;
-				when "0111" =>
+				when XOR_IN =>
 					output <= input1 XOR input2;
 					out_code <= in_code;
-				when "1000" =>
+				when XNOR_IN =>
 					output <= input1 XNOR input2;
 					out_code <= in_code;
-				when "1001" =>
+				when ASL =>
 					output <= shift_left(input1, to_integer(unsigned(input2)));
 					out_code <= in_code;
-				when "1010" =>
+				when ASR =>
 					output <= shift_right(input1, to_integer(unsigned(input2)));
 					out_code <= in_code;
-				when "1011" =>
+				when LSL =>
 					input1_temp <= std_logic_vector(input1);
 					output <= signed(shift_left(unsigned(input1_temp), to_integer(unsigned(input2))));
 					out_code <= in_code;
-				when "1100" =>
+				when LSR =>
 					input1_temp <= std_logic_vector(input1);
 					output <= signed(shift_right(unsigned(input1_temp), to_integer(unsigned(input2))));
 					out_code <= in_code;
