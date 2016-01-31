@@ -6,10 +6,10 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity alu_testbed is
+entity alu_tb is
 end entity;
 
-architecture testbed of alu_testbed is
+architecture testbed of alu_tb is
 
 Component alu_16 is
  	Generic(
@@ -31,7 +31,8 @@ end component;
 CONSTANT DATA_WIDTH : integer := 16;
 
 --The input signals with their initial values
-Signal clk, reset_t : std_logic := '0';
+Signal clk : std_logic := '0';
+Signal reset_t : std_logic := '0';
 
 Signal input1_t : signed(DATA_WIDTH-1 downto 0) := (others => '0');
 Signal input2_t : signed(DATA_WIDTH-1 downto 0) := (others => '0');
@@ -41,7 +42,7 @@ Signal opcode_t : unsigned(3 downto 0);
 Signal status_t : unsigned(3 downto 0);
 
 -- clock input
-CONSTANT clk_period : time := 10 ns;
+CONSTANT clk_period : time := 1 ns;
 
 CONSTANT ADD : unsigned(3 downto 0) := "0000";
 CONSTANT SUB : unsigned(3 downto 0) := "0001";
@@ -67,8 +68,7 @@ CONSTANT TEST6_NUM : signed(DATA_WIDTH-1 downto 0) := "0100110011110011"; --
 
 
 Begin
-dut: alu_16
-PORT MAP(opcode_t, input1_t, input2_t, clk, reset_t, output_t, status_t);
+dut: alu_16 PORT MAP(OPCODE => opcode_t, DATA0 => input1_t, DATA1 => input2_t, CLOCK => clk, RESET => reset_t, DATA_OUT => output_t, STATUS => status_t);
   
 -- process for clock
 clk_process : Process
@@ -80,14 +80,323 @@ Begin
 end process;
 
 
-test_alu_process: process
+stim_process: process
 Begin
-	-- test add and subtract
-	--REPORT "begin test case with double slash comment";
-	--s_input <= test_case_doubleslash(i);
-	--wait for 1 * clk_period;
-	--ASSERT(s_output = '0') REPORT "no comment, and input backslash should be output = '0'" SEVERITY ERROR;
-	--end loop;
+
+	reset_t <= '1';
+	wait for 1 * clk_period;
+	reset_t <= '0';
+	wait for 1 * clk_period;
+
+	-- test add
+	REPORT "begin test case for add function";
+	opcode_t <= ADD;
+	input1_t <= TEST1_NUM;
+	input2_t <= TEST2_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = "1111111111111111") REPORT "addition failed" SEVERITY ERROR;
+	ASSERT(status_t = ADD) REPORT "status output incorrect" SEVERITY ERROR;
+
+	input1_t <= TEST1_NUM;
+	input2_t <= TEST4_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = "0101011001010100") REPORT "addition failed" SEVERITY ERROR;
+	ASSERT(status_t = ADD) REPORT "status output incorrect" SEVERITY ERROR;
+
+	input1_t <= TEST2_NUM;
+	input2_t <= TEST3_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = "1010100110101010") REPORT "addition failed" SEVERITY ERROR;
+	ASSERT(status_t = ADD) REPORT "status output incorrect" SEVERITY ERROR;
+	
+	--SUB
+
+	REPORT "begin test case for SUB function";
+	opcode_t <= SUB;
+	input1_t <= TEST1_NUM;
+	input2_t <= TEST2_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = "1010101010101011") REPORT "subtraction failed" SEVERITY ERROR;
+	ASSERT(status_t = SUB) REPORT "status output incorrect" SEVERITY ERROR;
+
+	input1_t <= TEST5_NUM;
+	input2_t <= TEST6_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = "1000001000010011") REPORT "subtraction failed" SEVERITY ERROR;
+	ASSERT(status_t = SUB) REPORT "status output incorrect" SEVERITY ERROR;
+
+	input1_t <= TEST3_NUM;
+	input2_t <= TEST2_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = "0101010001010110") REPORT "subtraction failed" SEVERITY ERROR;
+	ASSERT(status_t = SUB) REPORT "status output incorrect" SEVERITY ERROR;
+
+	--NOT
+
+	REPORT "begin test case for NOT function";
+	opcode_t <= NOT_IN;
+	input1_t <= TEST1_NUM;
+	input2_t <= TEST2_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = TEST2_NUM) REPORT "NOT failed" SEVERITY ERROR;
+	ASSERT(status_t = NOT_IN) REPORT "status output incorrect" SEVERITY ERROR;
+
+	input1_t <= TEST2_NUM;
+	input2_t <= TEST2_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = TEST1_NUM) REPORT "NOT failed" SEVERITY ERROR;
+	ASSERT(status_t = NOT_IN) REPORT "status output incorrect" SEVERITY ERROR;
+
+	input1_t <= TEST5_NUM;
+	input2_t <= TEST1_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = "0011000011111001") REPORT "NOT failed" SEVERITY ERROR;
+	ASSERT(status_t = NOT_IN) REPORT "status output incorrect" SEVERITY ERROR;
+
+	--AND
+
+	REPORT "begin test case for AND function";
+	opcode_t <= AND_IN;
+	input1_t <= TEST1_NUM;
+	input2_t <= TEST2_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = "0000000000000000") REPORT "AND failed" SEVERITY ERROR;
+	ASSERT(status_t = AND_IN) REPORT "status output incorrect" SEVERITY ERROR;
+
+	input1_t <= TEST2_NUM;
+	input2_t <= TEST2_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = TEST2_NUM) REPORT "AND failed" SEVERITY ERROR;
+	ASSERT(status_t = AND_IN) REPORT "status output incorrect" SEVERITY ERROR;
+
+	input1_t <= TEST5_NUM;
+	input2_t <= TEST4_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = "0000000000000110") REPORT "AND failed" SEVERITY ERROR;
+	ASSERT(status_t = AND_IN) REPORT "status output incorrect" SEVERITY ERROR;
+
+	--NAND
+
+	REPORT "begin test case for NAND function";
+	opcode_t <= NAND_IN;
+	input1_t <= TEST1_NUM;
+	input2_t <= TEST2_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = "1111111111111111") REPORT "NAND failed" SEVERITY ERROR;
+	ASSERT(status_t = NAND_IN) REPORT "status output incorrect" SEVERITY ERROR;
+
+	input1_t <= TEST2_NUM;
+	input2_t <= TEST2_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = TEST1_NUM) REPORT "NAND failed" SEVERITY ERROR;
+	ASSERT(status_t = NAND_IN) REPORT "status output incorrect" SEVERITY ERROR;
+
+	input1_t <= TEST5_NUM;
+	input2_t <= TEST4_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = "1111111111111001") REPORT "NAND failed" SEVERITY ERROR;
+	ASSERT(status_t = NAND_IN) REPORT "status output incorrect" SEVERITY ERROR;
+
+	--OR
+
+	REPORT "begin test case for OR function";
+	opcode_t <= OR_IN;
+	input1_t <= TEST1_NUM;
+	input2_t <= TEST2_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = "1111111111111111") REPORT "OR failed" SEVERITY ERROR;
+	ASSERT(status_t = OR_IN) REPORT "status output incorrect" SEVERITY ERROR;
+
+	input1_t <= TEST2_NUM;
+	input2_t <= TEST2_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = TEST2_NUM) REPORT "OR failed" SEVERITY ERROR;
+	ASSERT(status_t = OR_IN) REPORT "status output incorrect" SEVERITY ERROR;
+
+	input1_t <= TEST5_NUM;
+	input2_t <= TEST4_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = "1100111111111111") REPORT "OR failed" SEVERITY ERROR;
+	ASSERT(status_t = OR_IN) REPORT "status output incorrect" SEVERITY ERROR;
+
+
+	--NOR
+
+	REPORT "begin test case for NOR function";
+	opcode_t <= NOR_IN;
+	input1_t <= TEST1_NUM;
+	input2_t <= TEST2_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = "0000000000000000") REPORT "NOR failed" SEVERITY ERROR;
+	ASSERT(status_t = NOR_IN) REPORT "status output incorrect" SEVERITY ERROR;
+	
+	reset_t <= '1';
+	wait for 1 * clk_period;
+	reset_t <= '0';
+	wait for 1 * clk_period;
+	
+	input1_t <= TEST2_NUM;
+	input2_t <= TEST2_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = TEST1_NUM) REPORT "NOR failed" SEVERITY ERROR;
+	ASSERT(status_t = NOR_IN) REPORT "status output incorrect" SEVERITY ERROR;
+
+	input1_t <= TEST5_NUM;
+	input2_t <= TEST4_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = "0011000000000000") REPORT "NOR failed" SEVERITY ERROR;
+	ASSERT(status_t = NOR_IN) REPORT "status output incorrect" SEVERITY ERROR;
+
+	reset_t <= '1';
+	wait for 1 * clk_period;
+	reset_t <= '0';
+	wait for 1 * clk_period;
+	--XOR
+
+	REPORT "begin test case for XOR function";
+	opcode_t <= XOR_IN;
+	input1_t <= TEST1_NUM;
+	input2_t <= TEST2_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = "1111111111111111") REPORT "XOR failed" SEVERITY ERROR;
+	ASSERT(status_t = XOR_IN) REPORT "status output incorrect" SEVERITY ERROR;
+
+	input1_t <= TEST5_NUM;
+	input2_t <= TEST6_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = "1000001111110101") REPORT "XOR failed" SEVERITY ERROR;
+	ASSERT(status_t = XOR_IN) REPORT "status output incorrect" SEVERITY ERROR;
+
+	input1_t <= TEST5_NUM;
+	input2_t <= TEST4_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = "1100111111111001") REPORT "XOR failed" SEVERITY ERROR;
+	ASSERT(status_t = XOR_IN) REPORT "status output incorrect" SEVERITY ERROR;
+
+	--XNOR
+
+	REPORT "begin test case for XNOR function";
+	opcode_t <= XNOR_IN;
+	input1_t <= TEST1_NUM;
+	input2_t <= TEST2_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = "0000000000000000") REPORT "XNOR failed" SEVERITY ERROR;
+	ASSERT(status_t = XNOR_IN) REPORT "status output incorrect" SEVERITY ERROR;
+
+	input1_t <= TEST5_NUM;
+	input2_t <= TEST6_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = "0111110000001010") REPORT "XNOR failed" SEVERITY ERROR;
+	ASSERT(status_t = XNOR_IN) REPORT "status output incorrect" SEVERITY ERROR;
+
+	input1_t <= TEST5_NUM;
+	input2_t <= TEST4_NUM;
+	wait for 1 * clk_period;
+	ASSERT(output_t = "0011000000000110") REPORT "XNOR failed" SEVERITY ERROR;
+	ASSERT(status_t = XNOR_IN) REPORT "status output incorrect" SEVERITY ERROR;
+
+	--ASL
+
+	REPORT "begin test case for ASL function";
+	opcode_t <= ASL;
+	input1_t <= TEST1_NUM;
+	input2_t <= "0000000000000011";
+	wait for 1 * clk_period;
+	ASSERT(output_t = "1010101010101000") REPORT "ASL failed" SEVERITY ERROR;
+	ASSERT(status_t = ASL) REPORT "status output incorrect" SEVERITY ERROR;
+
+	input1_t <= TEST5_NUM;
+	input2_t <= "0000000000000001";
+	wait for 1 * clk_period;
+	ASSERT(output_t = "1001111000001100") REPORT "ASL failed" SEVERITY ERROR;
+	ASSERT(status_t = ASL) REPORT "status output incorrect" SEVERITY ERROR;
+
+	input1_t <= TEST3_NUM;
+	input2_t <= "0000000000000110";
+	wait for 1 * clk_period;
+	ASSERT(output_t = "1100000000000000") REPORT "ASL failed" SEVERITY ERROR;
+	ASSERT(status_t = ASL) REPORT "status output incorrect" SEVERITY ERROR;
+
+	--ASR
+
+	REPORT "begin test case for ASR function";
+	opcode_t <= ASR;
+	input1_t <= TEST2_NUM;
+	input2_t <= "0000000000000011";
+	wait for 1 * clk_period;
+	ASSERT(output_t = "1111010101010101") REPORT "ASR failed" SEVERITY ERROR;
+	ASSERT(status_t = ASR) REPORT "status output incorrect" SEVERITY ERROR;
+
+	input1_t <= TEST5_NUM;
+	input2_t <= "0000000000000001";
+	wait for 1 * clk_period;
+	ASSERT(output_t = "1110011110000011") REPORT "ASR failed" SEVERITY ERROR;
+	ASSERT(status_t = ASR) REPORT "status output incorrect" SEVERITY ERROR;
+
+	input1_t <= TEST1_NUM;
+	input2_t <= "0000000000000110";
+	wait for 1 * clk_period;
+	ASSERT(output_t = "0000000101010101") REPORT "ASR failed" SEVERITY ERROR;
+	ASSERT(status_t = ASR) REPORT "status output incorrect" SEVERITY ERROR;
+
+
+	reset_t <= '1';
+	wait for 1 * clk_period;
+	reset_t <= '0';
+	wait for 1 * clk_period;
+	
+	--LSL
+
+	REPORT "begin test case for LSL function";
+	opcode_t <= LSL;
+	input1_t <= TEST1_NUM;
+	input2_t <= "0000000000000011";
+	wait for 1 * clk_period;
+	ASSERT(output_t = "1010101010101000") REPORT "LSL failed" SEVERITY ERROR;
+	ASSERT(status_t = LSL) REPORT "status output incorrect" SEVERITY ERROR;
+
+	input1_t <= TEST5_NUM;
+	input2_t <= "0000000000000001";
+	wait for 1 * clk_period;
+	ASSERT(output_t = "1001111000001100") REPORT "LSL failed" SEVERITY ERROR;
+	ASSERT(status_t = LSL) REPORT "status output incorrect" SEVERITY ERROR;
+
+	input1_t <= TEST3_NUM;
+	input2_t <= "0000000000000111";
+	wait for 1 * clk_period;
+	ASSERT(output_t = "1000000000000000") REPORT "LSL failed" SEVERITY ERROR;
+	ASSERT(status_t = LSL) REPORT "status output incorrect" SEVERITY ERROR;
+
+	--LSR
+
+	REPORT "begin test case for LSR function";
+	opcode_t <= LSR;
+	input1_t <= TEST1_NUM;
+	input2_t <= "0000000000000011";
+	wait for 1 * clk_period;
+	ASSERT(output_t = "0000101010101010") REPORT "LSR failed" SEVERITY ERROR;
+	ASSERT(status_t = LSR) REPORT "status output incorrect" SEVERITY ERROR;
+
+	input1_t <= TEST6_NUM;
+	input2_t <= "0000000000000001";
+	wait for 1 * clk_period;
+	ASSERT(output_t = "0010011001111001") REPORT "LSR failed" SEVERITY ERROR;
+	ASSERT(status_t = LSR) REPORT "status output incorrect" SEVERITY ERROR;
+
+	input1_t <= TEST2_NUM;
+	input2_t <= "0000000000001111";
+	wait for 1 * clk_period;
+	ASSERT(output_t = "0000000000000001") REPORT "LSR failed" SEVERITY ERROR;
+	ASSERT(status_t = LSR) REPORT "status output incorrect" SEVERITY ERROR;
+	
+	REPORT "TESTING Complete";
+	reset_t <= '1';
+	wait for 1 * clk_period;
+	reset_t <= '0';
+	wait for 1 * clk_period;
+	REPORT "RESET Complete";
+	
+	WAIT;
 end process;
 
 

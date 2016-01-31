@@ -94,12 +94,10 @@ Process(CLOCK, RESET)
 					output <= shift_right(input1, to_integer(unsigned(input2)));
 					out_code <= in_code;
 				when LSL =>
-					input1_temp <= std_logic_vector(input1);
-					output <= signed(shift_left(unsigned(input1_temp), to_integer(unsigned(input2))));
+					output <= signed(shift_left(unsigned(std_logic_vector(input1)), to_integer(unsigned(input2))));
 					out_code <= in_code;
 				when LSR =>
-					input1_temp <= std_logic_vector(input1);
-					output <= signed(shift_right(unsigned(input1_temp), to_integer(unsigned(input2))));
+					output <= signed(shift_right(unsigned(std_logic_vector(input1)), to_integer(unsigned(input2))));
 					out_code <= in_code;
 				when others =>
 					output <= "0000000000000000";

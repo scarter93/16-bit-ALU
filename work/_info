@@ -9,36 +9,35 @@ z2
 cModel Technology
 Z0 dC:/Users/scarte9/ECSE487-ALU
 Ealu_16
-Z1 w1454084025
+Z1 w1454276784
 Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R0
-Z5 8C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
-Z6 FC:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+Z5 8alu_16.vhd
+Z6 Falu_16.vhd
 l0
 L10
-V4`L[doCoj0z<ighnegVHE1
+VAnbUlD>F<eg<D=_[C[CzD2
 !s100 e06ke7fEoG11Z@1AU_2671
 Z7 OV;C;10.3d;59
 32
-Z8 !s110 1454084447
+Z8 !s110 1454276951
 !i10b 1
-Z9 !s108 1454084447.821000
-Z10 !s90 -reportprogress|300|-work|work|C:/Users/scarte9/ECSE487-ALU/alu_16.vhd|
-Z11 !s107 C:/Users/scarte9/ECSE487-ALU/alu_16.vhd|
+Z9 !s108 1454276950.988000
+Z10 !s90 -reportprogress|300|alu_16.vhd|
+Z11 !s107 alu_16.vhd|
 !i113 1
-Z12 o-work work
-Z13 tExplicit 1
+Z12 tExplicit 1
 Aimplementation
 R2
 R3
 R4
-DEx4 work 6 alu_16 0 22 4`L[doCoj0z<ighnegVHE1
+DEx4 work 6 alu_16 0 22 AnbUlD>F<eg<D=_[C[CzD2
 l48
 L27
-VWHD8cXUlUiXC8=J@=c7ZN2
-!s100 A[hn4PHMinA7B1Z[=aiV63
+VhK2I8S^P6@N]C?`dH8BEa0
+!s100 lk7Y6EDI4FkKA45>ee4gB0
 R7
 32
 R8
@@ -48,45 +47,81 @@ R10
 R11
 !i113 1
 R12
-R13
-Ealu_testbed
-Z14 w1454084524
+Ealu_tb
+Z13 w1454276947
 R2
 R3
 R4
 R0
-Z15 8C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd
-Z16 FC:/Users/scarte9/ECSE487-ALU/alu_tb.vhd
+Z14 8alu_tb.vhd
+Z15 Falu_tb.vhd
 l0
 L9
-V^T01zU@m0mV>9[Y8LTMRZ1
-!s100 QbMF=m9IU6g45:_SmU9lS2
+VnFci`<6F?<gzDiJH:=^MZ1
+!s100 TaG@nYhKj_Zk0BENMjH5c0
 R7
 32
-Z17 !s110 1454084529
+R8
 !i10b 1
-Z18 !s108 1454084529.415000
-Z19 !s90 -reportprogress|300|-work|work|C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd|
-Z20 !s107 C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd|
+Z16 !s108 1454276951.342000
+Z17 !s90 -reportprogress|300|alu_tb.vhd|
+Z18 !s107 alu_tb.vhd|
 !i113 1
 R12
-R13
 Atestbed
 R2
 R3
 R4
-Z21 DEx4 work 11 alu_testbed 0 22 ^T01zU@m0mV>9[Y8LTMRZ1
-l69
+Z19 DEx4 work 6 alu_tb 0 22 nFci`<6F?<gzDiJH:=^MZ1
+l70
 L12
-Z22 V1l0`?LQ0K>@WMnI503`z@0
-Z23 !s100 @Ro:[E7>V<OT7YMeoZZI83
+Venl@DQ8WgPJS=472cg5oM2
+!s100 M;:9h^49km>:[Hg=dJ6lR0
 R7
 32
-R17
+R8
 !i10b 1
+R16
+R17
 R18
-R19
-R20
 !i113 1
 R12
-R13
+Ealu_testbed
+Z20 w1454271521
+R2
+R3
+R4
+R0
+R14
+R15
+l0
+L9
+V]mEFhNP^aWT?RIf1Dml_b2
+!s100 QbMF=m9IU6g45:_SmU9lS2
+R7
+32
+Z21 !s110 1454271721
+!i10b 1
+Z22 !s108 1454271721.824000
+R17
+R18
+!i113 1
+R12
+Atestbed
+R2
+R3
+R4
+DEx4 work 11 alu_testbed 0 22 ]mEFhNP^aWT?RIf1Dml_b2
+l70
+L12
+VO]?^DU_AGh^cPi@BNMVBz3
+!s100 Rm6S^10EH13Rim4ZnEKWJ2
+R7
+32
+R21
+!i10b 1
+R22
+R17
+R18
+!i113 1
+R12
