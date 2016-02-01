@@ -56,7 +56,7 @@ STATUS <= out_code;
 Process(CLOCK, RESET)
 	Begin
 		if RESET = '1' then
-			output <= "0000000000000000";
+			output <= to_signed(0,DATA_WIDTH);
 			out_code <= "0000";
 		elsif rising_edge(CLOCK) then
 			case OPCODE is
@@ -94,13 +94,13 @@ Process(CLOCK, RESET)
 					output <= shift_right(input1, to_integer(unsigned(input2)));
 					out_code <= in_code;
 				when LSL =>
-					output <= signed(shift_left(unsigned(std_logic_vector(input1)), to_integer(unsigned(input2))));
+					output <= signed(shift_left(unsigned(input1), to_integer(unsigned(input2))));
 					out_code <= in_code;
 				when LSR =>
-					output <= signed(shift_right(unsigned(std_logic_vector(input1)), to_integer(unsigned(input2))));
+					output <= signed(shift_right(unsigned(input1), to_integer(unsigned(input2))));
 					out_code <= in_code;
 				when others =>
-					output <= "0000000000000000";
+					output <= to_signed(0,DATA_WIDTH);
 					out_code <= in_code;
 			end case;
 		end if;
