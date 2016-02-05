@@ -9,119 +9,159 @@ z2
 cModel Technology
 Z0 dC:/Users/scarte9/ECSE487-ALU
 Ealu_16
-Z1 w1454276784
-Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
-Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z1 w1454692862
+Z2 DPx4 work 11 status_type 0 22 9Yi=0Bek@k7e=CXRUGZMg2
+Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R0
-Z5 8alu_16.vhd
-Z6 Falu_16.vhd
+Z6 8alu_16.vhd
+Z7 Falu_16.vhd
 l0
-L10
-VAnbUlD>F<eg<D=_[C[CzD2
-!s100 e06ke7fEoG11Z@1AU_2671
-Z7 OV;C;10.3d;59
+L42
+VhzM5@YlC3oOi<Y^VO`l@P2
+!s100 EU8CnL;aN2JDDK0@?5@KP1
+Z8 OV;C;10.3d;59
 32
-Z8 !s110 1454276951
+Z9 !s110 1454692884
 !i10b 1
-Z9 !s108 1454276950.988000
-Z10 !s90 -reportprogress|300|alu_16.vhd|
-Z11 !s107 alu_16.vhd|
+Z10 !s108 1454692884.760000
+Z11 !s90 -reportprogress|300|alu_16.vhd|
+Z12 !s107 alu_16.vhd|
 !i113 1
-Z12 tExplicit 1
+Z13 tExplicit 1
 Aimplementation
 R2
 R3
 R4
-DEx4 work 6 alu_16 0 22 AnbUlD>F<eg<D=_[C[CzD2
-l48
-L27
-VhK2I8S^P6@N]C?`dH8BEa0
-!s100 lk7Y6EDI4FkKA45>ee4gB0
-R7
-32
+R5
+DEx4 work 6 alu_16 0 22 hzM5@YlC3oOi<Y^VO`l@P2
+l79
+L59
+Vf3W>gPXY>Wco8]Mla4YA01
+!s100 h4=LfXkJ`1`]<hGgR;fn_0
 R8
-!i10b 1
+32
 R9
+!i10b 1
 R10
 R11
-!i113 1
 R12
+!i113 1
+R13
 Ealu_tb
-Z13 w1454276947
+Z14 w1454692882
 R2
 R3
 R4
+R5
 R0
-Z14 8alu_tb.vhd
-Z15 Falu_tb.vhd
+Z15 8alu_tb.vhd
+Z16 Falu_tb.vhd
 l0
-L9
-VnFci`<6F?<gzDiJH:=^MZ1
-!s100 TaG@nYhKj_Zk0BENMjH5c0
-R7
-32
+L16
+VQ<Kih>o]@^beZ4M6YDTkZ3
+!s100 N8V71djBSSJSh3WAoH<Q?2
 R8
+32
+Z17 !s110 1454692885
 !i10b 1
-Z16 !s108 1454276951.342000
-Z17 !s90 -reportprogress|300|alu_tb.vhd|
-Z18 !s107 alu_tb.vhd|
+Z18 !s108 1454692885.121000
+Z19 !s90 -reportprogress|300|alu_tb.vhd|
+Z20 !s107 alu_tb.vhd|
 !i113 1
-R12
+R13
 Atestbed
 R2
 R3
 R4
-Z19 DEx4 work 6 alu_tb 0 22 nFci`<6F?<gzDiJH:=^MZ1
-l70
-L12
-Venl@DQ8WgPJS=472cg5oM2
-!s100 M;:9h^49km>:[Hg=dJ6lR0
-R7
-32
+R5
+DEx4 work 6 alu_tb 0 22 Q<Kih>o]@^beZ4M6YDTkZ3
+l77
+L19
+V^2JScO_^1WDIe]2ZFHITz3
+!s100 _?`mlBA1fSco1@1Olk8CS3
 R8
-!i10b 1
-R16
+32
 R17
+!i10b 1
 R18
+R19
+R20
 !i113 1
-R12
+R13
 Ealu_testbed
-Z20 w1454271521
-R2
+Z21 w1454271521
 R3
 R4
+R5
 R0
-R14
 R15
+R16
 l0
 L9
 V]mEFhNP^aWT?RIf1Dml_b2
 !s100 QbMF=m9IU6g45:_SmU9lS2
-R7
+R8
 32
-Z21 !s110 1454271721
+Z22 !s110 1454271721
 !i10b 1
-Z22 !s108 1454271721.824000
-R17
-R18
+Z23 !s108 1454271721.824000
+R19
+R20
 !i113 1
-R12
+R13
 Atestbed
-R2
 R3
 R4
+R5
 DEx4 work 11 alu_testbed 0 22 ]mEFhNP^aWT?RIf1Dml_b2
 l70
 L12
 VO]?^DU_AGh^cPi@BNMVBz3
 !s100 Rm6S^10EH13Rim4ZnEKWJ2
-R7
+R8
 32
-R21
-!i10b 1
 R22
-R17
-R18
+!i10b 1
+R23
+R19
+R20
 !i113 1
-R12
+R13
+Pstatus_type
+Z24 w1454689466
+R0
+Z25 8C:/Users/scarte9/ECSE487-ALU/work/status_type.vhd
+Z26 FC:/Users/scarte9/ECSE487-ALU/work/status_type.vhd
+l0
+L1
+V9Yi=0Bek@k7e=CXRUGZMg2
+!s100 QXJ?`b?FWXj7kZUgTA=`02
+R8
+32
+Z27 !s110 1454689497
+!i10b 1
+Z28 !s108 1454689497.731000
+Z29 !s90 -reportprogress|300|-work|work|C:/Users/scarte9/ECSE487-ALU/work/status_type.vhd|
+Z30 !s107 C:/Users/scarte9/ECSE487-ALU/work/status_type.vhd|
+!i113 1
+Z31 o-work work
+R13
+Bbody
+R2
+l0
+L5
+V[z]Uc3m[iXRmXVBiUo<7?2
+!s100 [;PM;iR8jPhTez=d>>oPZ2
+R8
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R31
+R13
+nbody

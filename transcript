@@ -1,1434 +1,2097 @@
 # Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
 # OpenFile C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
-source alu_tb.tcl
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
 # Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:27:15 on Jan 31,2016
-# vcom -reportprogress 300 alu_16.vhd 
+# Start time: 10:38:17 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package status_type
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(10): near ",": expecting ')'
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(12): Labels do not match: 'status_type' and 'mytypes'.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(12): VHDL Compiler exiting
+# End time: 10:38:17 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:38:46 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package status_type
+# -- Compiling entity alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(19): (vcom-1136) Unknown identifier "unsigned".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(20): (vcom-1136) Unknown identifier "signed".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(21): (vcom-1136) Unknown identifier "signed".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(23): (vcom-1136) Unknown identifier "std_logic".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(24): (vcom-1136) Unknown identifier "std_logic".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(26): (vcom-1136) Unknown identifier "signed".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(27): (vcom-1136) Unknown identifier "unsigned".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(29): VHDL Compiler exiting
+# End time: 10:38:46 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:39:03 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package status_type
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(10): near ",": expecting ')'
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(12): VHDL Compiler exiting
+# End time: 10:39:03 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_type.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:40:32 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_type.vhd 
+# -- Loading package STANDARD
+# -- Compiling package status_type
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_type.vhd(2): near ",": expecting ')'
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_type.vhd(4): VHDL Compiler exiting
+# End time: 10:40:32 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_type.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:41:11 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_type.vhd 
+# -- Loading package STANDARD
+# -- Compiling package status_type
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_type.vhd(2): near ",": expecting ')'
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_type.vhd(3): near "STATUS": syntax error
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_type.vhd(5): VHDL Compiler exiting
+# End time: 10:41:11 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_type.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:43:24 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_type.vhd 
+# -- Loading package STANDARD
+# -- Compiling package status_type
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_type.vhd(2): near ",": expecting ')'
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_type.vhd(3): near "STATUS": syntax error
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_type.vhd(5): VHDL Compiler exiting
+# End time: 10:43:24 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_type.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:43:25 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_type.vhd 
+# -- Loading package STANDARD
+# -- Compiling package status_type
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_type.vhd(2): near ",": expecting ')'
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_type.vhd(3): near "STATUS": syntax error
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_type.vhd(5): VHDL Compiler exiting
+# End time: 10:43:25 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_type.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:44:07 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_type.vhd 
+# -- Loading package STANDARD
+# -- Compiling package status_type
+# End time: 10:44:07 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_type.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:44:08 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_type.vhd 
+# -- Loading package STANDARD
+# -- Compiling package status_type
+# End time: 10:44:08 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:44:11 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity alu_16
 # -- Compiling architecture implementation of alu_16
-# End time: 15:27:15 on Jan 31,2016, Elapsed time: 0:00:00
+# End time: 10:44:12 on Feb 05,2016, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
 # Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:27:15 on Jan 31,2016
-# vcom -reportprogress 300 alu_tb.vhd 
+# Start time: 10:45:23 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(8): (vcom-1136) Unknown identifier "status_type".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(10): VHDL Compiler exiting
+# End time: 10:45:23 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:46:11 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(6): Library status_type not found.
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(9): (vcom-1136) Unknown identifier "status_type".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(11): VHDL Compiler exiting
+# End time: 10:46:11 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:46:12 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(6): Library status_type not found.
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(9): (vcom-1136) Unknown identifier "status_type".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(11): VHDL Compiler exiting
+# End time: 10:46:12 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vlib status_lib
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:47:36 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(9): (vcom-1136) Unknown identifier "status_type".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(11): VHDL Compiler exiting
+# End time: 10:47:36 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:47:58 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# End time: 10:47:59 on Feb 05,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:47:59 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# End time: 10:48:00 on Feb 05,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:48:26 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity alu_tb
 # -- Compiling architecture testbed of alu_tb
-# End time: 15:27:16 on Jan 31,2016, Elapsed time: 0:00:01
+# End time: 10:48:26 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:48:42 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(24): (vcom-1136) Unknown identifier "STATUS".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(25): near ")": expecting IDENTIFIER
+# End time: 10:48:42 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:49:21 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# ** Error: (vcom-11) Could not find status_lib.status_type.
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(9): (vcom-1195) Cannot find expanded name "status_lib.status_type".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(9): Unknown expanded name.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(11): VHDL Compiler exiting
+# End time: 10:49:21 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:49:39 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# ** Error: (vcom-11) Could not find status_lib.status_type.
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(9): (vcom-1195) Cannot find expanded name "status_lib.status_type".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(11): VHDL Compiler exiting
+# End time: 10:49:39 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:49:41 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# ** Error: (vcom-11) Could not find status_lib.status_type.
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(9): (vcom-1195) Cannot find expanded name "status_lib.status_type".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(11): VHDL Compiler exiting
+# End time: 10:49:41 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:49:41 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# ** Error: (vcom-11) Could not find status_lib.status_type.
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(9): (vcom-1195) Cannot find expanded name "status_lib.status_type".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(11): VHDL Compiler exiting
+# End time: 10:49:41 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_lib/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:49:54 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_lib/alu_16.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "C:/Users/scarte9/ECSE487-ALU/status_lib/alu_16.vhd" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# End time: 10:49:54 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:50:00 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(24): (vcom-1136) Unknown identifier "STATUS".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(25): near ")": expecting IDENTIFIER
+# End time: 10:50:00 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:50:09 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(24): (vcom-1136) Unknown identifier "STATUS".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(25): near ")": expecting IDENTIFIER
+# End time: 10:50:09 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:50:39 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(24): (vcom-1136) Unknown identifier "status_type".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(25): near ")": expecting IDENTIFIER
+# End time: 10:50:39 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:50:40 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(24): (vcom-1136) Unknown identifier "status_type".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(25): near ")": expecting IDENTIFIER
+# End time: 10:50:40 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:51:39 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd 
+# -- Loading package STANDARD
+# -- Compiling package status_type
+# End time: 10:51:39 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:51:42 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(24): (vcom-1136) Unknown identifier "alu_status".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(25): near ")": expecting IDENTIFIER
+# End time: 10:51:42 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:51:44 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(24): (vcom-1136) Unknown identifier "alu_status".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(25): near ")": expecting IDENTIFIER
+# End time: 10:51:44 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:54:00 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd 
+# -- Loading package STANDARD
+# -- Compiling package status_type
+# -- Compiling package body status_type
+# -- Loading package status_type
+# End time: 10:54:00 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:54:04 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(24): (vcom-1136) Unknown identifier "alu_status".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(25): near ")": expecting IDENTIFIER
+# End time: 10:54:04 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:54:16 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd 
+# -- Loading package STANDARD
+# -- Compiling package status_type
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd(2): near ",": expecting ')'
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd(3): VHDL Compiler exiting
+# End time: 10:54:16 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:54:18 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd 
+# -- Loading package STANDARD
+# -- Compiling package status_type
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd(2): near ",": expecting ')'
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd(3): VHDL Compiler exiting
+# End time: 10:54:18 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:54:18 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd 
+# -- Loading package STANDARD
+# -- Compiling package status_type
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd(2): near ",": expecting ')'
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd(3): VHDL Compiler exiting
+# End time: 10:54:18 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:54:40 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd 
+# -- Loading package STANDARD
+# -- Compiling package status_type
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd(2): near ",": expecting ')'
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd(3): near "alu_status": syntax error
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd(4): VHDL Compiler exiting
+# End time: 10:54:40 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:54:47 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd 
+# -- Loading package STANDARD
+# -- Compiling package status_type
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd(2): near ",": expecting ')'
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd(3): near "of": expecting IS or ';'
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd(4): VHDL Compiler exiting
+# End time: 10:54:47 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:54:48 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd 
+# -- Loading package STANDARD
+# -- Compiling package status_type
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd(2): near ",": expecting ')'
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd(3): near "of": expecting IS or ';'
+# ** Error: C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd(4): VHDL Compiler exiting
+# End time: 10:54:48 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:56:26 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd 
+# -- Loading package STANDARD
+# -- Compiling package status_type
+# -- Compiling package body status_type
+# -- Loading package status_type
+# End time: 10:56:26 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:57:56 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/status_lib/status_type.vhd 
+# -- Loading package STANDARD
+# -- Compiling package status_type
+# -- Compiling package body status_type
+# -- Loading package status_type
+# End time: 10:57:56 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:58:01 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(24): (vcom-1136) Unknown identifier "alu_status".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(25): near ")": expecting IDENTIFIER
+# End time: 10:58:01 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:58:25 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# ** Error: (vcom-11) Could not find status_lib.status_type.
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(9): (vcom-1195) Cannot find expanded name "status_lib.status_type".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(9): Unknown expanded name.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(11): VHDL Compiler exiting
+# End time: 10:58:25 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/work/status_type.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:59:10 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/work/status_type.vhd 
+# -- Loading package STANDARD
+# -- Compiling package status_type
+# -- Compiling package body status_type
+# -- Loading package status_type
+# End time: 10:59:10 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:59:12 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(25): near ")": expecting IDENTIFIER
+# End time: 10:59:12 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:59:19 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(25): near ")": expecting IDENTIFIER
+# End time: 10:59:19 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:59:24 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(55): Signal "out_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(111): VHDL Compiler exiting
+# End time: 10:59:24 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:59:37 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# End time: 10:59:37 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:01:54 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(49): near "begin": expecting ';'
+# End time: 11:01:54 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:02:01 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(61): String literal found where non-array type work.status_type.alu_status was expected.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(66): No feasible entries for infix operator "&".
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(66): Bad expression in left operand of infix expression "&".
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(66): near "'": syntax error
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(69): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(72): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(75): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(78): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(81): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(84): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(87): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(90): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(93): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(96): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(99): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(102): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(105): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(111): VHDL Compiler exiting
+# End time: 11:02:01 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 18, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:02:12 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(66): No feasible entries for infix operator "&".
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(66): Bad expression in left operand of infix expression "&".
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(66): near "'": syntax error
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(69): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(72): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(75): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(78): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(81): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(84): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(87): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(90): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(93): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(96): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(99): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(102): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(105): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(111): VHDL Compiler exiting
+# End time: 11:02:12 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 17, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:03:38 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(66): No feasible entries for infix operator "&".
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(66): Bad expression in left operand of infix expression "&".
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(66): near "'": syntax error
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(69): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(72): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(75): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(78): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(81): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(84): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(87): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(90): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(93): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(96): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(99): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(102): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(105): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(111): VHDL Compiler exiting
+# End time: 11:03:38 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 17, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:10:53 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(65): No feasible entries for infix operator "&".
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(65): Bad expression in left operand of infix expression "&".
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(65): near "'": syntax error
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(68): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(71): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(74): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(77): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(80): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(83): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(86): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(89): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(92): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(95): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(98): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(101): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(104): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(109): near ":": syntax error
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(145): VHDL Compiler exiting
+# End time: 11:10:53 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 18, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:11:50 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(65): near "'": syntax error
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(68): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(71): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(74): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(77): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(80): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(83): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(86): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(89): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(92): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(95): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(98): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(101): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(104): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(109): near ":": syntax error
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(145): VHDL Compiler exiting
+# End time: 11:11:50 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 16, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:12:21 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(67): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(70): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(73): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(76): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(79): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(82): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(85): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(88): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(91): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(94): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(97): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(100): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(103): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(108): near ":": syntax error
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(144): VHDL Compiler exiting
+# End time: 11:12:21 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 15, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:12:32 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(67): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(70): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(73): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(76): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(79): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(82): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(85): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(88): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(91): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(94): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(97): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(100): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(103): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(115): Type error resolving infix expression "or" as type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(117): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(119): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(121): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(123): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(125): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(127): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(129): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(131): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(133): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(135): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(137): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(139): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(144): near "implementation": expecting IF
+# End time: 11:12:32 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 27, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:12:47 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(67): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(70): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(73): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(76): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(79): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(82): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(85): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(88): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(91): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(94): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(97): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(100): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(103): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(115): Type error resolving infix expression "or" as type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(117): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(119): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(121): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(123): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(125): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(127): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(129): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(131): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(133): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(135): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(137): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(139): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(47): Nonresolved signal 'out_code' has multiple sources.
+#   Drivers:
+#     C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(57):Process line__57
+#        Driven at:
+#           C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(67)
+#     C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(108):Process line__108
+#        Driven at:
+#           C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(111)
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(146): VHDL Compiler exiting
+# End time: 11:12:47 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 28, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:14:01 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(102): Type error resolving infix expression "or" as type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(104): Type error resolving infix expression "or" as type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(106): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(108): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(110): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(112): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(114): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(116): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(118): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(120): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(122): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(124): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(126): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(133): VHDL Compiler exiting
+# End time: 11:14:01 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 14, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:14:45 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(102): Operator "=" is ambiguous.
+#    Feasible operators are:
+#       (explicit) NUMERIC_STD."="[UNRESOLVED_UNSIGNED, UNRESOLVED_UNSIGNED return BOOLEAN] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(702)
+#       (explicit) NUMERIC_STD."="[UNRESOLVED_SIGNED, UNRESOLVED_SIGNED return BOOLEAN] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(710)
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(102): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(102): Operator "=" is ambiguous.
+#    Feasible operators are:
+#       (explicit) NUMERIC_STD."="[UNRESOLVED_UNSIGNED, UNRESOLVED_UNSIGNED return BOOLEAN] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(702)
+#       (explicit) NUMERIC_STD."="[UNRESOLVED_SIGNED, UNRESOLVED_SIGNED return BOOLEAN] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(710)
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(102): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(106): Type error resolving infix expression "or" as type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(108): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(110): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(112): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(114): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(116): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(118): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(120): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(122): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(124): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(126): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(128): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(135): VHDL Compiler exiting
+# End time: 11:14:45 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 17, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:15:04 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(102): No feasible entries for infix operator "=".
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(102): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(106): Type error resolving infix expression "or" as type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(108): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(110): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(112): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(114): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(116): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(118): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(120): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(122): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(124): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(126): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(128): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(135): VHDL Compiler exiting
+# End time: 11:15:04 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 15, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:15:19 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(102): No feasible entries for infix operator "=".
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(102): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(106): Type error resolving infix expression "or" as type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(108): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(110): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(112): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(114): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(116): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(118): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(120): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(122): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(124): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(126): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(128): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(135): VHDL Compiler exiting
+# End time: 11:15:19 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 15, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:15:36 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(102): Operator "=" is ambiguous.
+#    Feasible operators are:
+#       (explicit) NUMERIC_STD."="[UNRESOLVED_UNSIGNED, UNRESOLVED_UNSIGNED return BOOLEAN] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(702)
+#       (explicit) NUMERIC_STD."="[UNRESOLVED_SIGNED, UNRESOLVED_SIGNED return BOOLEAN] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(710)
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(102): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(102): Operator "=" is ambiguous.
+#    Feasible operators are:
+#       (explicit) NUMERIC_STD."="[UNRESOLVED_UNSIGNED, UNRESOLVED_UNSIGNED return BOOLEAN] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(702)
+#       (explicit) NUMERIC_STD."="[UNRESOLVED_SIGNED, UNRESOLVED_SIGNED return BOOLEAN] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(710)
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(102): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(106): Type error resolving infix expression "or" as type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(108): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(110): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(112): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(114): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(116): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(118): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(120): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(122): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(124): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(126): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(128): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(135): VHDL Compiler exiting
+# End time: 11:15:36 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 17, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:16:20 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(102): Operator "=" is ambiguous.
+#    Feasible operators are:
+#       (explicit) NUMERIC_STD."="[UNRESOLVED_UNSIGNED, UNRESOLVED_UNSIGNED return BOOLEAN] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(702)
+#       (explicit) NUMERIC_STD."="[UNRESOLVED_SIGNED, UNRESOLVED_SIGNED return BOOLEAN] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(710)
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(102): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(102): Operator "=" is ambiguous.
+#    Feasible operators are:
+#       (explicit) NUMERIC_STD."="[UNRESOLVED_UNSIGNED, UNRESOLVED_UNSIGNED return BOOLEAN] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(702)
+#       (explicit) NUMERIC_STD."="[UNRESOLVED_SIGNED, UNRESOLVED_SIGNED return BOOLEAN] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(710)
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(102): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(106): Type error resolving infix expression "or" as type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(108): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(110): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(112): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(114): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(116): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(118): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(120): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(122): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(124): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(126): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(128): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(135): VHDL Compiler exiting
+# End time: 11:16:20 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 17, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:18:02 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(106): Type error resolving infix expression "or" as type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(108): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(110): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(112): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(114): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(116): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(118): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(120): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(122): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(124): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(126): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(128): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(135): VHDL Compiler exiting
+# End time: 11:18:02 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 13, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:19:22 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(106): Type error resolving infix expression "or" as type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(108): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(110): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(112): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(114): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(116): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(118): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(120): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(122): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(124): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(126): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(128): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(135): VHDL Compiler exiting
+# End time: 11:19:22 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 13, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:19:36 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(106): Type error resolving infix expression "or" as type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(108): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(110): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(112): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(114): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(116): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(118): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(120): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(122): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(124): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(126): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(128): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(135): VHDL Compiler exiting
+# End time: 11:19:36 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 13, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:20:05 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(108): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(110): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(112): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(114): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(116): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(118): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(120): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(122): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(124): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(126): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(128): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(135): VHDL Compiler exiting
+# End time: 11:20:05 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 12, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:21:34 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(104): Illegal type conversion from ieee.NUMERIC_STD.SIGNED to std.STANDARD.INTEGER (array to numeric).
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(112): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(114): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(116): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(118): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(120): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(122): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(124): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(126): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(128): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(130): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(132): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(139): VHDL Compiler exiting
+# End time: 11:21:34 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 13, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:21:47 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(112): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(114): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(116): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(118): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(120): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(122): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(124): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(126): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(128): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(130): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(132): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(139): VHDL Compiler exiting
+# End time: 11:21:47 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 12, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:23:17 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(118): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(120): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(122): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(124): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(126): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(128): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(130): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(132): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(134): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(136): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(138): Signal "in_code" is type ieee.NUMERIC_STD.UNSIGNED; expecting type work.status_type.alu_status.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_16.vhd(145): VHDL Compiler exiting
+# End time: 11:23:17 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 12, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:24:54 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# End time: 11:24:54 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/work/status_type.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:24:57 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/work/status_type.vhd 
+# -- Loading package STANDARD
+# -- Compiling package status_type
+# -- Compiling package body status_type
+# -- Loading package status_type
+# End time: 11:24:57 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:25:00 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# End time: 11:25:00 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:26:48 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# End time: 11:26:49 on Feb 05,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:39:01 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# End time: 11:39:02 on Feb 05,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:39:03 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# ** Error: (vcom-11) Could not find work.status_lib.
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd(8): (vcom-1195) Cannot find expanded name "work.status_lib".
+# 
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd(8): Unknown expanded name.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd(10): VHDL Compiler exiting
+# End time: 11:39:03 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:39:13 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_tb
+# -- Compiling architecture testbed of alu_tb
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd(143): No feasible entries for infix operator "=".
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd(143): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd(149): No feasible entries for infix operator "=".
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd(149): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd(155): No feasible entries for infix operator "=".
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd(155): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd(404): VHDL Compiler exiting
+# End time: 11:39:13 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:39:30 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_tb
+# -- Compiling architecture testbed of alu_tb
+# End time: 11:39:31 on Feb 05,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+source alu_tb.tcl
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:39:43 on Feb 05,2016
+# vcom -reportprogress 300 alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# End time: 11:39:43 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:39:43 on Feb 05,2016
+# vcom -reportprogress 300 alu_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_tb
+# -- Compiling architecture testbed of alu_tb
+# End time: 11:39:43 on Feb 05,2016, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -gui C:\Users\scarte9\ECSE487-ALU\alu_16.vhd 
-# Start time: 15:27:16 on Jan 31,2016
+# Start time: 11:39:43 on Feb 05,2016
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
+# Loading work.status_type(body)
 # Loading work.alu_tb(testbed)
 # Loading work.alu_16(implementation)
 # ** Note: begin test case for add function
-#    Time: 0 ps  Iteration: 0  Instance: /alu_tb
-quit -sim
-source alu_tb.tcl
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:29:31 on Jan 31,2016
-# vcom -reportprogress 300 alu_16.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_16
-# -- Compiling architecture implementation of alu_16
-# End time: 15:29:31 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:29:31 on Jan 31,2016
-# vcom -reportprogress 300 alu_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_tb
-# -- Compiling architecture testbed of alu_tb
-# End time: 15:29:31 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 15:29:31 on Jan 31,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.alu_tb(testbed)
-# Loading work.alu_16(implementation)
-# ** Note: begin test case for add function
-#    Time: 0 ps  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for subtract function
-#    Time: 3 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: addition failed
-#    Time: 4 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: addition failed
-#    Time: 6 ns  Iteration: 0  Instance: /alu_tb
-quit -sim
-source alu_tb.tcl
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:31:29 on Jan 31,2016
-# vcom -reportprogress 300 alu_16.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_16
-# -- Compiling architecture implementation of alu_16
-# End time: 15:31:29 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:31:29 on Jan 31,2016
-# vcom -reportprogress 300 alu_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_tb
-# -- Compiling architecture testbed of alu_tb
-# End time: 15:31:29 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 15:31:29 on Jan 31,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.alu_tb(testbed)
-# Loading work.alu_16(implementation)
-# ** Note: begin test case for add function
-#    Time: 0 ps  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for subtract function
-#    Time: 3 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: addition failed
-#    Time: 4 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: addition failed
-#    Time: 6 ns  Iteration: 0  Instance: /alu_tb
-quit -sim
-source alu_tb.tcl
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:37:01 on Jan 31,2016
-# vcom -reportprogress 300 alu_16.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_16
-# -- Compiling architecture implementation of alu_16
-# End time: 15:37:01 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:37:01 on Jan 31,2016
-# vcom -reportprogress 300 alu_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_tb
-# -- Compiling architecture testbed of alu_tb
-# End time: 15:37:01 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 15:37:01 on Jan 31,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.alu_tb(testbed)
-# Loading work.alu_16(implementation)
-# ** Note: begin test case for add function
-#    Time: 0 ps  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for subtract function
-#    Time: 3 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: addition failed
-#    Time: 4 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: addition failed
-#    Time: 6 ns  Iteration: 0  Instance: /alu_tb
-quit -sim
-source alu_tb.tcl
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:38:31 on Jan 31,2016
-# vcom -reportprogress 300 alu_16.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_16
-# -- Compiling architecture implementation of alu_16
-# End time: 15:38:31 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:38:31 on Jan 31,2016
-# vcom -reportprogress 300 alu_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_tb
-# -- Compiling architecture testbed of alu_tb
-# End time: 15:38:31 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 15:38:31 on Jan 31,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.alu_tb(testbed)
-# Loading work.alu_16(implementation)
-# ** Note: begin test case for add function
-#    Time: 0 ps  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for subtract function
-#    Time: 3 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: addition failed
-#    Time: 4 ns  Iteration: 0  Instance: /alu_tb
-quit -sim
-source alu_tb.tcl
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:40:33 on Jan 31,2016
-# vcom -reportprogress 300 alu_16.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_16
-# -- Compiling architecture implementation of alu_16
-# End time: 15:40:34 on Jan 31,2016, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:40:34 on Jan 31,2016
-# vcom -reportprogress 300 alu_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_tb
-# -- Compiling architecture testbed of alu_tb
-# End time: 15:40:34 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 15:40:34 on Jan 31,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.alu_tb(testbed)
-# Loading work.alu_16(implementation)
-# ** Note: begin test case for add function
-#    Time: 0 ps  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for subtract function
-#    Time: 3 ns  Iteration: 0  Instance: /alu_tb
-quit -sim
-source alu_tb.tcl
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:44:50 on Jan 31,2016
-# vcom -reportprogress 300 alu_16.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_16
-# -- Compiling architecture implementation of alu_16
-# End time: 15:44:51 on Jan 31,2016, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:44:51 on Jan 31,2016
-# vcom -reportprogress 300 alu_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_tb
-# -- Compiling architecture testbed of alu_tb
-# End time: 15:44:51 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 15:44:51 on Jan 31,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.alu_tb(testbed)
-# Loading work.alu_16(implementation)
-# ** Note: begin test case for add function
-#    Time: 0 ps  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for subtract function
-#    Time: 3 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: addition failed
-#    Time: 4 ns  Iteration: 0  Instance: /alu_tb
-quit -sim
-source alu_tb.tcl
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:47:52 on Jan 31,2016
-# vcom -reportprogress 300 alu_16.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_16
-# -- Compiling architecture implementation of alu_16
-# End time: 15:47:52 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:47:52 on Jan 31,2016
-# vcom -reportprogress 300 alu_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_tb
-# -- Compiling architecture testbed of alu_tb
-# End time: 15:47:53 on Jan 31,2016, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 15:47:53 on Jan 31,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.alu_tb(testbed)
-# Loading work.alu_16(implementation)
-# ** Note: begin test case for add function
-#    Time: 0 ps  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for subtract function
-#    Time: 3 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: subtraction failed
-#    Time: 4 ns  Iteration: 0  Instance: /alu_tb
-quit -sim
-source alu_tb.tcl
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:49:35 on Jan 31,2016
-# vcom -reportprogress 300 alu_16.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_16
-# -- Compiling architecture implementation of alu_16
-# End time: 15:49:35 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:49:35 on Jan 31,2016
-# vcom -reportprogress 300 alu_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_tb
-# -- Compiling architecture testbed of alu_tb
-# End time: 15:49:36 on Jan 31,2016, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 15:49:36 on Jan 31,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.alu_tb(testbed)
-# Loading work.alu_16(implementation)
-# ** Note: begin test case for add function
-#    Time: 0 ps  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for subtract function
-#    Time: 3 ns  Iteration: 0  Instance: /alu_tb
-quit -sim
-source alu_tb.tcl
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:52:56 on Jan 31,2016
-# vcom -reportprogress 300 alu_16.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_16
-# -- Compiling architecture implementation of alu_16
-# End time: 15:52:57 on Jan 31,2016, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:52:57 on Jan 31,2016
-# vcom -reportprogress 300 alu_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_tb
-# -- Compiling architecture testbed of alu_tb
-# End time: 15:52:57 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 15:52:57 on Jan 31,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.alu_tb(testbed)
-# Loading work.alu_16(implementation)
-# ** Note: begin test case for add function
-#    Time: 0 ps  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOT function
-#    Time: 3 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOT function
-#    Time: 6 ns  Iteration: 0  Instance: /alu_tb
-quit -sim
-# Load canceled
-source alu_tb.tcl
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:00:12 on Jan 31,2016
-# vcom -reportprogress 300 alu_16.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_16
-# -- Compiling architecture implementation of alu_16
-# End time: 16:00:12 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:00:12 on Jan 31,2016
-# vcom -reportprogress 300 alu_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_tb
-# -- Compiling architecture testbed of alu_tb
-# End time: 16:00:13 on Jan 31,2016, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 16:00:13 on Jan 31,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.alu_tb(testbed)
-# Loading work.alu_16(implementation)
-# ** Note: begin test case for add function
-#    Time: 0 ps  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for SUB function
-#    Time: 3 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOT function
-#    Time: 6 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for AND function
-#    Time: 9 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: status output incorrect
-#    Time: 12 ns  Iteration: 0  Instance: /alu_tb
-restart -f
-quit -sim
-source alu_tb.tcl
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:00:43 on Jan 31,2016
-# vcom -reportprogress 300 alu_16.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_16
-# -- Compiling architecture implementation of alu_16
-# End time: 16:00:43 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:00:43 on Jan 31,2016
-# vcom -reportprogress 300 alu_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_tb
-# -- Compiling architecture testbed of alu_tb
-# End time: 16:00:43 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 16:00:43 on Jan 31,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.alu_tb(testbed)
-# Loading work.alu_16(implementation)
-# ** Note: begin test case for add function
-#    Time: 0 ps  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for SUB function
-#    Time: 3 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOT function
-#    Time: 6 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for AND function
-#    Time: 9 ns  Iteration: 0  Instance: /alu_tb
-quit -sim
-source alu_tb.tcl
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:03:12 on Jan 31,2016
-# vcom -reportprogress 300 alu_16.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_16
-# -- Compiling architecture implementation of alu_16
-# End time: 16:03:12 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:03:12 on Jan 31,2016
-# vcom -reportprogress 300 alu_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_tb
-# -- Compiling architecture testbed of alu_tb
-# End time: 16:03:12 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 16:03:12 on Jan 31,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.alu_tb(testbed)
-# Loading work.alu_16(implementation)
-# ** Note: begin test case for add function
-#    Time: 0 ps  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for SUB function
-#    Time: 3 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOT function
-#    Time: 6 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for AND function
-#    Time: 9 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NAND function
-#    Time: 12 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: NAND failed
-#    Time: 14 ns  Iteration: 0  Instance: /alu_tb
-quit -sim
-source alu_tb.tcl
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:04:20 on Jan 31,2016
-# vcom -reportprogress 300 alu_16.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_16
-# -- Compiling architecture implementation of alu_16
-# End time: 16:04:20 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:04:20 on Jan 31,2016
-# vcom -reportprogress 300 alu_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_tb
-# -- Compiling architecture testbed of alu_tb
-# End time: 16:04:21 on Jan 31,2016, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 16:04:21 on Jan 31,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.alu_tb(testbed)
-# Loading work.alu_16(implementation)
-# ** Note: begin test case for add function
-#    Time: 0 ps  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for SUB function
-#    Time: 3 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOT function
-#    Time: 6 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for AND function
-#    Time: 9 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NAND function
-#    Time: 12 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: NAND failed
-#    Time: 14 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: NAND failed
-#    Time: 15 ns  Iteration: 0  Instance: /alu_tb
-quit -sim
-source alu_tb.tcl
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:05:46 on Jan 31,2016
-# vcom -reportprogress 300 alu_16.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_16
-# -- Compiling architecture implementation of alu_16
-# End time: 16:05:46 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:05:46 on Jan 31,2016
-# vcom -reportprogress 300 alu_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_tb
-# -- Compiling architecture testbed of alu_tb
-# ** Error: alu_tb.vhd(185): near ") REPORT ": expecting ')'
-# ** Error: alu_tb.vhd(185): near " SEVERITY ERROR;": (vcom-1203) String literal is not terminated with the " character.
-# ** Error: alu_tb.vhd(200): VHDL Compiler exiting
-# End time: 16:05:46 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 3, Warnings: 0
-# C:/altera/15.0/modelsim_ase/win32aloem/vcom failed.
-quit -sim
-source alu_tb.tcl
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:06:00 on Jan 31,2016
-# vcom -reportprogress 300 alu_16.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_16
-# -- Compiling architecture implementation of alu_16
-# End time: 16:06:00 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:06:00 on Jan 31,2016
-# vcom -reportprogress 300 alu_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_tb
-# -- Compiling architecture testbed of alu_tb
-# End time: 16:06:01 on Jan 31,2016, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 16:06:01 on Jan 31,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.alu_tb(testbed)
-# Loading work.alu_16(implementation)
-# ** Note: begin test case for add function
-#    Time: 0 ps  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for SUB function
-#    Time: 3 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOT function
-#    Time: 6 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for AND function
-#    Time: 9 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NAND function
-#    Time: 12 ns  Iteration: 0  Instance: /alu_tb
-quit -sim
-source alu_tb.tcl
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:08:25 on Jan 31,2016
-# vcom -reportprogress 300 alu_16.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_16
-# -- Compiling architecture implementation of alu_16
-# End time: 16:08:25 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:08:25 on Jan 31,2016
-# vcom -reportprogress 300 alu_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_tb
-# -- Compiling architecture testbed of alu_tb
-# End time: 16:08:25 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 16:08:25 on Jan 31,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.alu_tb(testbed)
-# Loading work.alu_16(implementation)
-# ** Note: begin test case for add function
-#    Time: 0 ps  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for SUB function
-#    Time: 3 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOT function
-#    Time: 6 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for AND function
-#    Time: 9 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NAND function
-#    Time: 12 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for OR function
-#    Time: 15 ns  Iteration: 0  Instance: /alu_tb
-quit -sim
-source alu_tb.tcl
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:10:02 on Jan 31,2016
-# vcom -reportprogress 300 alu_16.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_16
-# -- Compiling architecture implementation of alu_16
-# End time: 16:10:03 on Jan 31,2016, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:10:03 on Jan 31,2016
-# vcom -reportprogress 300 alu_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_tb
-# -- Compiling architecture testbed of alu_tb
-# End time: 16:10:03 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 16:10:03 on Jan 31,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.alu_tb(testbed)
-# Loading work.alu_16(implementation)
-# ** Note: begin test case for add function
-#    Time: 0 ps  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for SUB function
-#    Time: 3 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOT function
-#    Time: 6 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for AND function
-#    Time: 9 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NAND function
-#    Time: 12 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for OR function
-#    Time: 15 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOR function
-#    Time: 18 ns  Iteration: 0  Instance: /alu_tb
-quit -sim
-source alu_tb.tcl
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:15:25 on Jan 31,2016
-# vcom -reportprogress 300 alu_16.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_16
-# -- Compiling architecture implementation of alu_16
-# End time: 16:15:25 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:15:25 on Jan 31,2016
-# vcom -reportprogress 300 alu_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_tb
-# -- Compiling architecture testbed of alu_tb
-# End time: 16:15:25 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 16:15:25 on Jan 31,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.alu_tb(testbed)
-# Loading work.alu_16(implementation)
-# ** Note: begin test case for add function
-#    Time: 0 ps  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for SUB function
-#    Time: 3 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOT function
-#    Time: 6 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for AND function
-#    Time: 9 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NAND function
-#    Time: 12 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for OR function
-#    Time: 15 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOR function
-#    Time: 18 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for XOR function
-#    Time: 21 ns  Iteration: 0  Instance: /alu_tb
-quit -sim
-source alu_tb.tcl
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:18:28 on Jan 31,2016
-# vcom -reportprogress 300 alu_16.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_16
-# -- Compiling architecture implementation of alu_16
-# End time: 16:18:28 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:18:28 on Jan 31,2016
-# vcom -reportprogress 300 alu_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_tb
-# -- Compiling architecture testbed of alu_tb
-# End time: 16:18:29 on Jan 31,2016, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 16:18:29 on Jan 31,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.alu_tb(testbed)
-# Loading work.alu_16(implementation)
-# ** Note: begin test case for add function
-#    Time: 0 ps  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for SUB function
-#    Time: 3 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOT function
-#    Time: 6 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for AND function
-#    Time: 9 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NAND function
-#    Time: 12 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for OR function
-#    Time: 15 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOR function
-#    Time: 18 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for XOR function
-#    Time: 21 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for XNOR function
-#    Time: 24 ns  Iteration: 0  Instance: /alu_tb
-quit -sim
-source alu_tb.tcl
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:20:56 on Jan 31,2016
-# vcom -reportprogress 300 alu_16.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_16
-# -- Compiling architecture implementation of alu_16
-# End time: 16:20:56 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:20:56 on Jan 31,2016
-# vcom -reportprogress 300 alu_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_tb
-# -- Compiling architecture testbed of alu_tb
-# End time: 16:20:56 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 16:20:56 on Jan 31,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.alu_tb(testbed)
-# Loading work.alu_16(implementation)
-# ** Note: begin test case for add function
-#    Time: 1 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: addition failed
 #    Time: 2 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: addition failed
+# ** Error: status output incorrect
 #    Time: 3 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: addition failed
+# ** Error: status output incorrect
 #    Time: 4 ns  Iteration: 0  Instance: /alu_tb
+# ** Error: status output incorrect
+#    Time: 5 ns  Iteration: 0  Instance: /alu_tb
 # ** Note: begin test case for SUB function
+#    Time: 5 ns  Iteration: 0  Instance: /alu_tb
+# ** Error: status output incorrect
+#    Time: 6 ns  Iteration: 0  Instance: /alu_tb
+# ** Error: status output incorrect
+#    Time: 8 ns  Iteration: 0  Instance: /alu_tb
+quit -sim
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:42:31 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_tb
+# -- Compiling architecture testbed of alu_tb
+# End time: 11:42:32 on Feb 05,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:42:33 on Feb 05,2016
+# vcom -reportprogress 30 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# End time: 11:42:33 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:42:34 on Feb 05,2016
+# vcom -reportprogress 30 -work work C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_tb
+# -- Compiling architecture testbed of alu_tb
+# End time: 11:42:34 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+source alu_tb.tcl
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:42:39 on Feb 05,2016
+# vcom -reportprogress 300 alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# End time: 11:42:40 on Feb 05,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:42:40 on Feb 05,2016
+# vcom -reportprogress 300 alu_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_tb
+# -- Compiling architecture testbed of alu_tb
+# End time: 11:42:40 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 11:42:40 on Feb 05,2016
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.status_type(body)
+# Loading work.alu_tb(testbed)
+# Loading work.alu_16(implementation)
+# ** Note: begin test case for add function
+#    Time: 2 ns  Iteration: 0  Instance: /alu_tb
+# ** Error: status output incorrect
+#    Time: 3 ns  Iteration: 0  Instance: /alu_tb
+# ** Error: status output incorrect
 #    Time: 4 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: subtraction failed
-#    Time: 5 ns  Iteration: 0  Instance: /alu_tb
 # ** Error: status output incorrect
 #    Time: 5 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: subtraction failed
-#    Time: 6 ns  Iteration: 0  Instance: /alu_tb
+# ** Note: begin test case for SUB function
+#    Time: 5 ns  Iteration: 0  Instance: /alu_tb
 # ** Error: status output incorrect
 #    Time: 6 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: subtraction failed
-#    Time: 7 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: status output incorrect
-#    Time: 7 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOT function
-#    Time: 7 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: NOT failed
-#    Time: 8 ns  Iteration: 0  Instance: /alu_tb
 # ** Error: status output incorrect
 #    Time: 8 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: NOT failed
-#    Time: 9 ns  Iteration: 0  Instance: /alu_tb
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:49:15 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_tb
+# -- Compiling architecture testbed of alu_tb
+# End time: 11:49:16 on Feb 05,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+source alu_tb.tcl
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:49:18 on Feb 05,2016
+# vcom -reportprogress 300 alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# End time: 11:49:18 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:49:18 on Feb 05,2016
+# vcom -reportprogress 300 alu_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_tb
+# -- Compiling architecture testbed of alu_tb
+# End time: 11:49:18 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 11:49:19 on Feb 05,2016
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.status_type(body)
+# Loading work.alu_tb(testbed)
+# Loading work.alu_16(implementation)
+# ** Note: begin test case for add function
+#    Time: 2 ns  Iteration: 0  Instance: /alu_tb
+# ** Note: begin test case for SUB function
+#    Time: 8 ns  Iteration: 0  Instance: /alu_tb
 # ** Error: status output incorrect
-#    Time: 9 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: NOT failed
 #    Time: 10 ns  Iteration: 0  Instance: /alu_tb
 # ** Error: status output incorrect
-#    Time: 10 ns  Iteration: 0  Instance: /alu_tb
+#    Time: 14 ns  Iteration: 0  Instance: /alu_tb
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:52:56 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_tb
+# -- Compiling architecture testbed of alu_tb
+# End time: 11:52:56 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+source alu_tb.tcl
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:52:59 on Feb 05,2016
+# vcom -reportprogress 300 alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# End time: 11:52:59 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:52:59 on Feb 05,2016
+# vcom -reportprogress 300 alu_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_tb
+# -- Compiling architecture testbed of alu_tb
+# End time: 11:53:00 on Feb 05,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 11:53:01 on Feb 05,2016
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.status_type(body)
+# Loading work.alu_tb(testbed)
+# Loading work.alu_16(implementation)
+# ** Note: begin test case for add function
+#    Time: 2 ns  Iteration: 0  Instance: /alu_tb
+# ** Note: begin test case for SUB function
+#    Time: 8 ns  Iteration: 0  Instance: /alu_tb
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:54:06 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# End time: 11:54:06 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+source alu_tb.tcl
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:54:11 on Feb 05,2016
+# vcom -reportprogress 300 alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# End time: 11:54:11 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:54:11 on Feb 05,2016
+# vcom -reportprogress 300 alu_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_tb
+# -- Compiling architecture testbed of alu_tb
+# End time: 11:54:12 on Feb 05,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 11:54:13 on Feb 05,2016
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.status_type(body)
+# Loading work.alu_tb(testbed)
+# Loading work.alu_16(implementation)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/dut
+# ** Note: begin test case for add function
+#    Time: 2 ns  Iteration: 0  Instance: /alu_tb
+# ** Note: begin test case for SUB function
+#    Time: 8 ns  Iteration: 0  Instance: /alu_tb
+source alu_tb.tcl
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:56:58 on Feb 05,2016
+# vcom -reportprogress 300 alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# End time: 11:56:58 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:56:58 on Feb 05,2016
+# vcom -reportprogress 300 alu_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_tb
+# -- Compiling architecture testbed of alu_tb
+# End time: 11:56:58 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 11:56:59 on Feb 05,2016
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.status_type(body)
+# Loading work.alu_tb(testbed)
+# Loading work.alu_16(implementation)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/dut
+# ** Note: begin test case for add function
+#    Time: 2 ns  Iteration: 0  Instance: /alu_tb
+# ** Note: begin test case for SUB function
+#    Time: 8 ns  Iteration: 0  Instance: /alu_tb
 # ** Note: begin test case for AND function
-#    Time: 10 ns  Iteration: 0  Instance: /alu_tb
+#    Time: 14 ns  Iteration: 0  Instance: /alu_tb
 # ** Error: status output incorrect
-#    Time: 11 ns  Iteration: 0  Instance: /alu_tb
+#    Time: 15 ns  Iteration: 0  Instance: /alu_tb
 # ** Error: AND failed
-#    Time: 12 ns  Iteration: 0  Instance: /alu_tb
+#    Time: 16 ns  Iteration: 0  Instance: /alu_tb
 # ** Error: status output incorrect
-#    Time: 12 ns  Iteration: 0  Instance: /alu_tb
+#    Time: 16 ns  Iteration: 0  Instance: /alu_tb
+# ** Error: status output incorrect
+#    Time: 17 ns  Iteration: 0  Instance: /alu_tb
+source alu_tb.tcl
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:57:17 on Feb 05,2016
+# vcom -reportprogress 300 alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# End time: 11:57:18 on Feb 05,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:57:18 on Feb 05,2016
+# vcom -reportprogress 300 alu_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_tb
+# -- Compiling architecture testbed of alu_tb
+# End time: 11:57:18 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 11:57:19 on Feb 05,2016
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.status_type(body)
+# Loading work.alu_tb(testbed)
+# Loading work.alu_16(implementation)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/dut
+# ** Note: begin test case for add function
+#    Time: 2 ns  Iteration: 0  Instance: /alu_tb
+# ** Note: begin test case for SUB function
+#    Time: 8 ns  Iteration: 0  Instance: /alu_tb
+# ** Note: begin test case for AND function
+#    Time: 14 ns  Iteration: 0  Instance: /alu_tb
 # ** Error: AND failed
-#    Time: 13 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: status output incorrect
-#    Time: 13 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NAND function
-#    Time: 13 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: NAND failed
-#    Time: 14 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: status output incorrect
-#    Time: 14 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: NAND failed
-#    Time: 15 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: status output incorrect
-#    Time: 15 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: NAND failed
-#    Time: 16 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: status output incorrect
-#    Time: 16 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for OR function
-#    Time: 16 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: OR failed
-#    Time: 17 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: status output incorrect
-#    Time: 17 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: OR failed
 #    Time: 18 ns  Iteration: 0  Instance: /alu_tb
 # ** Error: status output incorrect
 #    Time: 18 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: OR failed
-#    Time: 19 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: status output incorrect
-#    Time: 19 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOR function
-#    Time: 19 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: status output incorrect
-#    Time: 20 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: NOR failed
-#    Time: 22 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: status output incorrect
-#    Time: 22 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: NOR failed
-#    Time: 23 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: status output incorrect
-#    Time: 23 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for XOR function
-#    Time: 24 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: XOR failed
-#    Time: 25 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: status output incorrect
-#    Time: 25 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: XOR failed
-#    Time: 26 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: status output incorrect
-#    Time: 26 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: XOR failed
-#    Time: 27 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: status output incorrect
-#    Time: 27 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for XNOR function
-#    Time: 27 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: status output incorrect
-#    Time: 28 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: XNOR failed
-#    Time: 29 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: status output incorrect
-#    Time: 29 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: XNOR failed
-#    Time: 30 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: status output incorrect
-#    Time: 30 ns  Iteration: 0  Instance: /alu_tb
-quit -sim
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:58:40 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# End time: 11:58:40 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:58:42 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_tb
+# -- Compiling architecture testbed of alu_tb
+# End time: 11:58:42 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 source alu_tb.tcl
 # Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:21:48 on Jan 31,2016
+# Start time: 11:58:45 on Feb 05,2016
 # vcom -reportprogress 300 alu_16.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
+# -- Loading package status_type
 # -- Compiling entity alu_16
 # -- Compiling architecture implementation of alu_16
-# End time: 16:21:48 on Jan 31,2016, Elapsed time: 0:00:00
+# End time: 11:58:45 on Feb 05,2016, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:21:48 on Jan 31,2016
+# Start time: 11:58:45 on Feb 05,2016
 # vcom -reportprogress 300 alu_tb.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
+# -- Loading package status_type
 # -- Compiling entity alu_tb
 # -- Compiling architecture testbed of alu_tb
-# End time: 16:21:49 on Jan 31,2016, Elapsed time: 0:00:01
+# End time: 11:58:46 on Feb 05,2016, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vsim 
-# Start time: 16:21:49 on Jan 31,2016
+# Start time: 11:58:47 on Feb 05,2016
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
+# Loading work.status_type(body)
 # Loading work.alu_tb(testbed)
 # Loading work.alu_16(implementation)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/dut
 # ** Note: begin test case for add function
 #    Time: 2 ns  Iteration: 0  Instance: /alu_tb
 # ** Note: begin test case for SUB function
-#    Time: 5 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOT function
 #    Time: 8 ns  Iteration: 0  Instance: /alu_tb
 # ** Note: begin test case for AND function
-#    Time: 11 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NAND function
 #    Time: 14 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for OR function
-#    Time: 17 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOR function
-#    Time: 20 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for XOR function
-#    Time: 27 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for XNOR function
-#    Time: 30 ns  Iteration: 0  Instance: /alu_tb
-quit -sim
+# ** Error: AND failed
+#    Time: 18 ns  Iteration: 0  Instance: /alu_tb
+# ** Error: status output incorrect
+#    Time: 18 ns  Iteration: 0  Instance: /alu_tb
 source alu_tb.tcl
 # Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:25:55 on Jan 31,2016
+# Start time: 12:00:52 on Feb 05,2016
 # vcom -reportprogress 300 alu_16.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
+# -- Loading package status_type
 # -- Compiling entity alu_16
 # -- Compiling architecture implementation of alu_16
-# End time: 16:25:56 on Jan 31,2016, Elapsed time: 0:00:01
+# End time: 12:00:52 on Feb 05,2016, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:25:56 on Jan 31,2016
+# Start time: 12:00:52 on Feb 05,2016
 # vcom -reportprogress 300 alu_tb.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
+# -- Loading package status_type
 # -- Compiling entity alu_tb
 # -- Compiling architecture testbed of alu_tb
-# End time: 16:25:56 on Jan 31,2016, Elapsed time: 0:00:00
+# End time: 12:00:53 on Feb 05,2016, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vsim 
-# Start time: 16:25:56 on Jan 31,2016
+# Start time: 12:00:54 on Feb 05,2016
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
+# Loading work.status_type(body)
 # Loading work.alu_tb(testbed)
 # Loading work.alu_16(implementation)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/dut
 # ** Note: begin test case for add function
 #    Time: 2 ns  Iteration: 0  Instance: /alu_tb
 # ** Note: begin test case for SUB function
-#    Time: 5 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOT function
 #    Time: 8 ns  Iteration: 0  Instance: /alu_tb
 # ** Note: begin test case for AND function
-#    Time: 11 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NAND function
 #    Time: 14 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for OR function
-#    Time: 17 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOR function
-#    Time: 20 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for XOR function
-#    Time: 27 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for XNOR function
-#    Time: 30 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for ASL function
-#    Time: 33 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: ASL failed
-#    Time: 34 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: ASL failed
-#    Time: 36 ns  Iteration: 0  Instance: /alu_tb
-quit -sim
+# ** Error: status output incorrect
+#    Time: 18 ns  Iteration: 0  Instance: /alu_tb
 source alu_tb.tcl
 # Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:28:36 on Jan 31,2016
+# Start time: 12:01:22 on Feb 05,2016
 # vcom -reportprogress 300 alu_16.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
+# -- Loading package status_type
 # -- Compiling entity alu_16
 # -- Compiling architecture implementation of alu_16
-# End time: 16:28:36 on Jan 31,2016, Elapsed time: 0:00:00
+# End time: 12:01:23 on Feb 05,2016, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:28:36 on Jan 31,2016
+# Start time: 12:01:23 on Feb 05,2016
 # vcom -reportprogress 300 alu_tb.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
+# -- Loading package status_type
 # -- Compiling entity alu_tb
 # -- Compiling architecture testbed of alu_tb
-# End time: 16:28:37 on Jan 31,2016, Elapsed time: 0:00:01
+# End time: 12:01:23 on Feb 05,2016, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim 
-# Start time: 16:28:37 on Jan 31,2016
+# Start time: 12:01:24 on Feb 05,2016
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
+# Loading work.status_type(body)
 # Loading work.alu_tb(testbed)
 # Loading work.alu_16(implementation)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/dut
 # ** Note: begin test case for add function
 #    Time: 2 ns  Iteration: 0  Instance: /alu_tb
 # ** Note: begin test case for SUB function
-#    Time: 5 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOT function
 #    Time: 8 ns  Iteration: 0  Instance: /alu_tb
 # ** Note: begin test case for AND function
-#    Time: 11 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NAND function
 #    Time: 14 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for OR function
-#    Time: 17 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOR function
-#    Time: 20 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for XOR function
-#    Time: 27 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for XNOR function
-#    Time: 30 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for ASL function
-#    Time: 33 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: ASL failed
-#    Time: 36 ns  Iteration: 0  Instance: /alu_tb
-quit -sim
 source alu_tb.tcl
 # Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:30:07 on Jan 31,2016
+# Start time: 12:02:31 on Feb 05,2016
 # vcom -reportprogress 300 alu_16.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
+# -- Loading package status_type
 # -- Compiling entity alu_16
 # -- Compiling architecture implementation of alu_16
-# End time: 16:30:08 on Jan 31,2016, Elapsed time: 0:00:01
+# End time: 12:02:31 on Feb 05,2016, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:30:08 on Jan 31,2016
+# Start time: 12:02:31 on Feb 05,2016
 # vcom -reportprogress 300 alu_tb.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
+# -- Loading package status_type
 # -- Compiling entity alu_tb
 # -- Compiling architecture testbed of alu_tb
-# End time: 16:30:08 on Jan 31,2016, Elapsed time: 0:00:00
+# End time: 12:02:31 on Feb 05,2016, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim 
-# Start time: 16:30:08 on Jan 31,2016
+# Start time: 12:02:32 on Feb 05,2016
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
+# Loading work.status_type(body)
 # Loading work.alu_tb(testbed)
 # Loading work.alu_16(implementation)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/dut
 # ** Note: begin test case for add function
 #    Time: 2 ns  Iteration: 0  Instance: /alu_tb
 # ** Note: begin test case for SUB function
-#    Time: 5 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOT function
 #    Time: 8 ns  Iteration: 0  Instance: /alu_tb
 # ** Note: begin test case for AND function
-#    Time: 11 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NAND function
 #    Time: 14 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for OR function
-#    Time: 17 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOR function
-#    Time: 20 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for XOR function
-#    Time: 27 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for XNOR function
-#    Time: 30 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for ASL function
-#    Time: 33 ns  Iteration: 0  Instance: /alu_tb
-quit -sim
-source alu_tb.tcl
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:41:09 on Jan 31,2016
-# vcom -reportprogress 300 alu_16.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_16
-# -- Compiling architecture implementation of alu_16
-# End time: 16:41:09 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:41:09 on Jan 31,2016
-# vcom -reportprogress 300 alu_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_tb
-# -- Compiling architecture testbed of alu_tb
-# ** Error: alu_tb.vhd(292): near "1010101010101010": (vcom-119) Integer value exceeds INTEGER'high.
-# ** Error: alu_tb.vhd(292): near "1010101010101010": syntax error
-# ** Error: alu_tb.vhd(352): VHDL Compiler exiting
-# End time: 16:41:09 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 3, Warnings: 0
-# C:/altera/15.0/modelsim_ase/win32aloem/vcom failed.
-source alu_tb.tcl
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:41:22 on Jan 31,2016
-# vcom -reportprogress 300 alu_16.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_16
-# -- Compiling architecture implementation of alu_16
-# End time: 16:41:23 on Jan 31,2016, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:41:23 on Jan 31,2016
-# vcom -reportprogress 300 alu_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity alu_tb
-# -- Compiling architecture testbed of alu_tb
-# End time: 16:41:23 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 16:41:23 on Jan 31,2016
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.alu_tb(testbed)
-# Loading work.alu_16(implementation)
-# ** Note: begin test case for add function
-#    Time: 2 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for SUB function
-#    Time: 5 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOT function
-#    Time: 8 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for AND function
-#    Time: 11 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NAND function
-#    Time: 14 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for OR function
-#    Time: 17 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOR function
-#    Time: 20 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for XOR function
-#    Time: 27 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for XNOR function
-#    Time: 30 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for ASL function
-#    Time: 33 ns  Iteration: 0  Instance: /alu_tb
 # ** Note: begin test case for ASR function
-#    Time: 36 ns  Iteration: 0  Instance: /alu_tb
-quit -sim
+#    Time: 20 ns  Iteration: 0  Instance: /alu_tb
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:10:51 on Feb 05,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package status_type
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# End time: 12:10:51 on Feb 05,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 source alu_tb.tcl
 # Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:44:25 on Jan 31,2016
+# Start time: 12:10:53 on Feb 05,2016
 # vcom -reportprogress 300 alu_16.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
+# -- Loading package status_type
 # -- Compiling entity alu_16
 # -- Compiling architecture implementation of alu_16
-# End time: 16:44:25 on Jan 31,2016, Elapsed time: 0:00:00
+# End time: 12:10:54 on Feb 05,2016, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:44:25 on Jan 31,2016
+# Start time: 12:10:54 on Feb 05,2016
 # vcom -reportprogress 300 alu_tb.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
+# -- Loading package status_type
 # -- Compiling entity alu_tb
 # -- Compiling architecture testbed of alu_tb
-# End time: 16:44:25 on Jan 31,2016, Elapsed time: 0:00:00
+# End time: 12:10:54 on Feb 05,2016, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim 
-# Start time: 16:44:25 on Jan 31,2016
+# Start time: 12:10:55 on Feb 05,2016
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
+# Loading work.status_type(body)
 # Loading work.alu_tb(testbed)
 # Loading work.alu_16(implementation)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/dut
 # ** Note: begin test case for add function
 #    Time: 2 ns  Iteration: 0  Instance: /alu_tb
 # ** Note: begin test case for SUB function
-#    Time: 5 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOT function
 #    Time: 8 ns  Iteration: 0  Instance: /alu_tb
 # ** Note: begin test case for AND function
-#    Time: 11 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NAND function
 #    Time: 14 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for OR function
-#    Time: 17 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOR function
-#    Time: 20 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for XOR function
-#    Time: 27 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for XNOR function
-#    Time: 30 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for ASL function
-#    Time: 33 ns  Iteration: 0  Instance: /alu_tb
 # ** Note: begin test case for ASR function
-#    Time: 36 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for LSL function
-#    Time: 41 ns  Iteration: 0  Instance: /alu_tb
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 42 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: LSL failed
-#    Time: 42 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: LSL failed
-#    Time: 43 ns  Iteration: 0  Instance: /alu_tb
-# ** Error: LSL failed
-#    Time: 44 ns  Iteration: 0  Instance: /alu_tb
-quit -sim
+#    Time: 20 ns  Iteration: 0  Instance: /alu_tb
 source alu_tb.tcl
 # Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:45:41 on Jan 31,2016
+# Start time: 12:14:28 on Feb 05,2016
 # vcom -reportprogress 300 alu_16.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
+# -- Loading package status_type
 # -- Compiling entity alu_16
 # -- Compiling architecture implementation of alu_16
-# End time: 16:45:42 on Jan 31,2016, Elapsed time: 0:00:01
+# End time: 12:14:29 on Feb 05,2016, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:45:42 on Jan 31,2016
+# Start time: 12:14:29 on Feb 05,2016
 # vcom -reportprogress 300 alu_tb.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
+# -- Loading package status_type
 # -- Compiling entity alu_tb
 # -- Compiling architecture testbed of alu_tb
-# End time: 16:45:42 on Jan 31,2016, Elapsed time: 0:00:00
+# End time: 12:14:29 on Feb 05,2016, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim 
-# Start time: 16:45:42 on Jan 31,2016
+# Start time: 12:14:30 on Feb 05,2016
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
+# Loading work.status_type(body)
 # Loading work.alu_tb(testbed)
 # Loading work.alu_16(implementation)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/dut
 # ** Note: begin test case for add function
 #    Time: 2 ns  Iteration: 0  Instance: /alu_tb
 # ** Note: begin test case for SUB function
-#    Time: 5 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOT function
 #    Time: 8 ns  Iteration: 0  Instance: /alu_tb
 # ** Note: begin test case for AND function
-#    Time: 11 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NAND function
 #    Time: 14 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for OR function
-#    Time: 17 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOR function
-#    Time: 20 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for XOR function
-#    Time: 27 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for XNOR function
-#    Time: 30 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for ASL function
-#    Time: 33 ns  Iteration: 0  Instance: /alu_tb
 # ** Note: begin test case for ASR function
-#    Time: 36 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for LSL function
-#    Time: 41 ns  Iteration: 0  Instance: /alu_tb
-quit -sim
+#    Time: 20 ns  Iteration: 0  Instance: /alu_tb
 source alu_tb.tcl
 # Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:49:10 on Jan 31,2016
+# Start time: 12:21:24 on Feb 05,2016
 # vcom -reportprogress 300 alu_16.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
+# -- Loading package status_type
 # -- Compiling entity alu_16
 # -- Compiling architecture implementation of alu_16
-# End time: 16:49:11 on Jan 31,2016, Elapsed time: 0:00:01
+# End time: 12:21:25 on Feb 05,2016, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 16:49:11 on Jan 31,2016
+# Start time: 12:21:25 on Feb 05,2016
 # vcom -reportprogress 300 alu_tb.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
+# -- Loading package status_type
 # -- Compiling entity alu_tb
 # -- Compiling architecture testbed of alu_tb
-# End time: 16:49:11 on Jan 31,2016, Elapsed time: 0:00:00
+# End time: 12:21:25 on Feb 05,2016, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim 
-# Start time: 16:49:11 on Jan 31,2016
+# Start time: 12:21:26 on Feb 05,2016
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
+# Loading work.status_type(body)
 # Loading work.alu_tb(testbed)
 # Loading work.alu_16(implementation)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/dut
 # ** Note: begin test case for add function
 #    Time: 2 ns  Iteration: 0  Instance: /alu_tb
 # ** Note: begin test case for SUB function
-#    Time: 5 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOT function
 #    Time: 8 ns  Iteration: 0  Instance: /alu_tb
 # ** Note: begin test case for AND function
-#    Time: 11 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NAND function
 #    Time: 14 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for OR function
-#    Time: 17 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for NOR function
-#    Time: 20 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for XOR function
-#    Time: 27 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for XNOR function
-#    Time: 30 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for ASL function
-#    Time: 33 ns  Iteration: 0  Instance: /alu_tb
 # ** Note: begin test case for ASR function
-#    Time: 36 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for LSL function
-#    Time: 41 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: begin test case for LSR function
-#    Time: 44 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: TESTING Complete
-#    Time: 47 ns  Iteration: 0  Instance: /alu_tb
-# ** Note: RESET Complete
-#    Time: 49 ns  Iteration: 0  Instance: /alu_tb
-# WARNING: No extended dataflow license exists
-quit -sim
+#    Time: 20 ns  Iteration: 0  Instance: /alu_tb
+# End time: 12:34:02 on Feb 05,2016, Elapsed time: 0:12:36
+# Errors: 0, Warnings: 1
