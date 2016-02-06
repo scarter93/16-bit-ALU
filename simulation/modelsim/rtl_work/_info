@@ -1,0 +1,42 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\scarte9\ECSE487-ALU\simulation\modelsim
+Ealu_16
+Z1 w1454787954
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\scarte9\ECSE487-ALU\simulation\modelsim
+Z6 8C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+Z7 FC:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+l0
+L39
+V9@LKfGPc=?m@SQcET4zeg3
+!s100 m?dJfCRl55VjkCNQQaWI00
+Z8 OV;C;10.1d;51
+33
+!i10b 1
+Z9 !s108 1454788127.276000
+Z10 !s90 -reportprogress|300|-2008|-work|work|C:/Users/scarte9/ECSE487-ALU/alu_16.vhd|
+Z11 !s107 C:/Users/scarte9/ECSE487-ALU/alu_16.vhd|
+Z12 o-2008 -work work -O0
+Z13 tExplicit 1
+Aimplementation
+R2
+R3
+R4
+DEx4 work 6 alu_16 0 22 9@LKfGPc=?m@SQcET4zeg3
+l76
+L56
+VjQ?bRSTPARHIWMFnlmLa?2
+!s100 99`:nj?AaMnD@;V>j=I_>3
+R8
+33
+!i10b 1
+R9
+R10
+R11
+R12
+R13

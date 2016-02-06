@@ -11,7 +11,6 @@
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
-use work.status_type.all;
 
 entity alu_tb is
 end entity;

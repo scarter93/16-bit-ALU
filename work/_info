@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/scarte9/ECSE487-ALU
 Ealu_16
-Z1 w1454783801
+Z1 w1454790649
 Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
@@ -22,9 +22,9 @@ VzEI<XAQ?<070cUE=h=l]50
 !s100 J3:2bSbB]ZiEV>_]]QVTX2
 Z7 OV;C;10.3d;59
 33
-Z8 !s110 1454784425
+Z8 !s110 1454790651
 !i10b 1
-Z9 !s108 1454784425.324000
+Z9 !s108 1454790651.937000
 Z10 !s90 -reportprogress|300|alu_16.vhd|
 Z11 !s107 alu_16.vhd|
 !i113 1
@@ -36,8 +36,8 @@ R4
 DEx4 work 6 alu_16 0 22 zEI<XAQ?<070cUE=h=l]50
 l76
 L56
-VN^`5`gdP<oZ>kcoZGU=G70
-!s100 DCkcgFS9dlfiJ7STFKg?J1
+V2g6]zV88Ye2]Sm<SC0A@_2
+!s100 :`z9jMkm1AzS@El@6Yo`O2
 R7
 33
 R8
@@ -48,40 +48,38 @@ R11
 !i113 1
 R12
 Ealu_tb
-Z13 w1454784422
-Z14 DPx4 work 11 status_type 0 22 9Yi=0Bek@k7e=CXRUGZMg2
+Z13 w1454787582
 R2
 R3
 R4
 R0
-Z15 8alu_tb.vhd
-Z16 Falu_tb.vhd
+Z14 8alu_tb.vhd
+Z15 Falu_tb.vhd
 l0
-L16
-Vo[MXb<BQRLM6mWJNan1^m2
-!s100 N8V71djBSSJSh3WAoH<Q?2
+L15
+VL0h@JKF1BiM87@J`CKbb32
+!s100 dfFYc]a5Yo[6d0XZN1oC00
 R7
 33
-R8
+Z16 !s110 1454790652
 !i10b 1
-Z17 !s108 1454784425.681000
+Z17 !s108 1454790652.293000
 Z18 !s90 -reportprogress|300|alu_tb.vhd|
 Z19 !s107 alu_tb.vhd|
 !i113 1
 R12
 Atestbed
-R14
 R2
 R3
 R4
-Z20 DEx4 work 6 alu_tb 0 22 o[MXb<BQRLM6mWJNan1^m2
-l77
-L19
-VRQ@AE2:@?U_l=1NG8DK0m1
-!s100 Yk0D2SCcWLY@iA8Dm^B]?1
+Z20 DEx4 work 6 alu_tb 0 22 L0h@JKF1BiM87@J`CKbb32
+l76
+L18
+Z21 Vij_L1TKBlnJcMRb1IVkPF2
+Z22 !s100 3[L8_cb4:UMQhQDRfhM<=1
 R7
 33
-R8
+R16
 !i10b 1
 R17
 R18
@@ -89,26 +87,26 @@ R19
 !i113 1
 R12
 Ealu_testbed
-Z21 w1454271521
+Z23 w1454271521
 R2
 R3
 R4
 R0
+R14
 R15
-R16
 l0
 L9
 V]mEFhNP^aWT?RIf1Dml_b2
 !s100 QbMF=m9IU6g45:_SmU9lS2
 R7
 32
-Z22 !s110 1454271721
+Z24 !s110 1454271721
 !i10b 1
-Z23 !s108 1454271721.824000
+Z25 !s108 1454271721.824000
 R18
 R19
 !i113 1
-Z24 tExplicit 1
+Z26 tExplicit 1
 Atestbed
 R2
 R3
@@ -120,46 +118,46 @@ VO]?^DU_AGh^cPi@BNMVBz3
 !s100 Rm6S^10EH13Rim4ZnEKWJ2
 R7
 32
-R22
+R24
 !i10b 1
-R23
+R25
 R18
 R19
 !i113 1
-R24
+R26
 Pstatus_type
-Z25 w1454689466
+Z27 w1454689466
 R0
-Z26 8C:/Users/scarte9/ECSE487-ALU/work/status_type.vhd
-Z27 FC:/Users/scarte9/ECSE487-ALU/work/status_type.vhd
+Z28 8C:/Users/scarte9/ECSE487-ALU/work/status_type.vhd
+Z29 FC:/Users/scarte9/ECSE487-ALU/work/status_type.vhd
 l0
 L1
 V9Yi=0Bek@k7e=CXRUGZMg2
 !s100 QXJ?`b?FWXj7kZUgTA=`02
 R7
 32
-Z28 !s110 1454689497
+Z30 !s110 1454689497
 !i10b 1
-Z29 !s108 1454689497.731000
-Z30 !s90 -reportprogress|300|-work|work|C:/Users/scarte9/ECSE487-ALU/work/status_type.vhd|
-Z31 !s107 C:/Users/scarte9/ECSE487-ALU/work/status_type.vhd|
+Z31 !s108 1454689497.731000
+Z32 !s90 -reportprogress|300|-work|work|C:/Users/scarte9/ECSE487-ALU/work/status_type.vhd|
+Z33 !s107 C:/Users/scarte9/ECSE487-ALU/work/status_type.vhd|
 !i113 1
-Z32 o-work work
-R24
+Z34 o-work work
+R26
 Bbody
-R14
+DPx4 work 11 status_type 0 22 9Yi=0Bek@k7e=CXRUGZMg2
 l0
 L5
 V[z]Uc3m[iXRmXVBiUo<7?2
 !s100 [;PM;iR8jPhTez=d>>oPZ2
 R7
 32
-R28
-!i10b 1
-R29
 R30
+!i10b 1
 R31
-!i113 1
 R32
-R24
+R33
+!i113 1
+R34
+R26
 nbody
