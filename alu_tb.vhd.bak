@@ -146,7 +146,7 @@ Begin
 	ASSERT(output_t = "1011001000001101") REPORT "subtraction failed" SEVERITY ERROR;
 	ASSERT(status_t = "0100") REPORT "status output incorrect" SEVERITY ERROR;
 	
-	REPORT "checking condition with overflow -- Status is wrong to demonstrate non-exiting error";
+	REPORT "checking condition with overflow -- Status is wrong to demonstrate non exiting error";
 	opcode_t <= SUB;
 	input1_t <= TEST1_NUM;
 	input2_t <= TEST2_NUM;

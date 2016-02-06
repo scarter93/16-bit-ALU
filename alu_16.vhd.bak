@@ -142,7 +142,7 @@ Process(CLOCK, RESET) -- process for updating OPCODE
 						Z <= '0';
 					end if;
 					N <= output(DATA_WIDTH-1);
-					P <=  NOT (xor output);
+					P <= xor output;
 				-- check overflow conditions, zero conditions, negative conditions, and parity for SUB
 				when SUB =>
 					O <= ((NOT input1(DATA_WIDTH-1) AND input2(DATA_WIDTH-1) AND output(DATA_WIDTH-1)) OR (input1(DATA_WIDTH-1) AND NOT input2(DATA_WIDTH-1) AND NOT output(DATA_WIDTH-1)));
@@ -162,7 +162,7 @@ Process(CLOCK, RESET) -- process for updating OPCODE
 						Z <= '0';
 					end if;
 					N <= output(DATA_WIDTH-1);
-					P <=  NOT (xor output);
+					P <= xor output;
 			end case;
 		end if;
 	end process;
